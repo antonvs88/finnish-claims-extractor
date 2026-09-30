@@ -3,7 +3,7 @@ import re,sys
 from pathlib import Path
 import torch
 P=Path(__file__).resolve().parent.parent;sys.path.insert(0,str(P/'nli-baseline'))
-from inference import NLI
+from inference import NLI,DEVICE
 COUNTRIES=[('suom', 'Suomessa',True),('ruots','Ruotsissa',True),('norj','Norjassa',True),('tansk','Tanskassa',True),('islan','Islannissa',True),('saks','Saksassa',False),('viro|viross|viron','Virossa',False),('ransk','Ranskassa',False),('belgi','Belgiassa',False),('puol','Puolassa',False),('ital','Italiassa',False),('espan','Espanjassa',False),('alankom','Alankomaissa',False)]
 class CountryNLI(NLI):
  def predict_country(self,texts,batch_size=8):
@@ -14,7 +14,7 @@ class CountryNLI(NLI):
     for loc,val in candidates:pairs.append((chunk,f'Vahinko sattui {loc}.'));keys.append((i,loc,val))
   enc=self.tok([x[0] for x in pairs],[x[1] for x in pairs],truncation=False);assert max(map(len,enc['input_ids']))<=512;order=sorted(range(len(pairs)),key=lambda i:len(enc['input_ids'][i]))
   for offset in range(0,len(order),batch_size):
-   ix=order[offset:offset+batch_size];x=self.tok.pad([{k:v[j] for k,v in enc.items()} for j in ix],padding=True,return_tensors='pt').to('mps')
+   ix=order[offset:offset+batch_size];x=self.tok.pad([{k:v[j] for k,v in enc.items()} for j in ix],padding=True,return_tensors='pt').to(DEVICE)
    with torch.inference_mode():ps=self.model(**x).logits.float().softmax(-1).cpu().tolist()
    for j,p in zip(ix,ps):
     i,loc,val=keys[j];result[i].append({'location':loc,'nordic':val,'probabilities':{self.labels[k]:p[k] for k in range(3)}})

@@ -1,13 +1,14 @@
 """All-field boolean NLI inference. Long inputs split by lines/token windows, no silent truncation."""
-import json,sys,time
+import json,os,sys,time
 from pathlib import Path
 import torch
 from transformers import AutoTokenizer,AutoModelForSequenceClassification
 R=Path(__file__).resolve().parent;sys.path.insert(0,str(R.parent/'training'))
 from build_data import B
+DEVICE=os.environ.get('CLAIMS_EXTRACTOR_DEVICE') or ('mps' if torch.backends.mps.is_available() else 'cuda' if torch.cuda.is_available() else 'cpu')
 class NLI:
  def __init__(self,path=None):
-  assert path is not None;self.path=path;self.tok=AutoTokenizer.from_pretrained(self.path);self.model=AutoModelForSequenceClassification.from_pretrained(self.path).to('mps');self.model.eval();self.labels={int(k):v.lower() for k,v in self.model.config.id2label.items()};self.index={v:k for k,v in self.labels.items()};self.fields=list(B);self.hypotheses=[B[f][0].capitalize()+'.' for f in self.fields]
+  assert path is not None;self.path=path;self.tok=AutoTokenizer.from_pretrained(self.path);self.model=AutoModelForSequenceClassification.from_pretrained(self.path).to(DEVICE);self.model.eval();self.labels={int(k):v.lower() for k,v in self.model.config.id2label.items()};self.index={v:k for k,v in self.labels.items()};self.fields=list(B);self.hypotheses=[B[f][0].capitalize()+'.' for f in self.fields]
   self.max_hyp=max(len(self.tok(h,add_special_tokens=False)['input_ids']) for h in self.hypotheses);self.budget=512-self.max_hyp-6
  def chunks(self,text):
   ids=self.tok(text,add_special_tokens=False)['input_ids']
@@ -27,7 +28,7 @@ class NLI:
   chunks=self.chunks(text);pairs=[(chunk,h) for chunk in chunks for h in self.hypotheses];probs=[]
   for i in range(0,len(pairs),batch_size):
    rs=pairs[i:i+batch_size];x=self.tok([p[0] for p in rs],[p[1] for p in rs],padding=True,truncation=False,return_tensors='pt');assert x['input_ids'].shape[1]<=512
-   with torch.inference_mode():probs.extend(self.model(**x.to('mps')).logits.softmax(-1).cpu().tolist())
+   with torch.inference_mode():probs.extend(self.model(**x.to(DEVICE)).logits.softmax(-1).cpu().tolist())
   result={};evidence={}
   for j,f in enumerate(self.fields):
    ps=[probs[i*len(self.fields)+j] for i in range(len(chunks))]
@@ -47,7 +48,7 @@ class NLI:
   enc=self.tok([p[0] for p in pairs],[p[1] for p in pairs],padding=False,truncation=False);order=sorted(range(len(pairs)),key=lambda j:len(enc['input_ids'][j]));assert max(map(len,enc['input_ids']))<=512
   probabilities=[None]*len(pairs)
   for i in range(0,len(order),batch_size):
-   ix=order[i:i+batch_size];x=self.tok.pad([{k:enc[k][j] for k in enc} for j in ix],padding=True,return_tensors='pt').to('mps')
+   ix=order[i:i+batch_size];x=self.tok.pad([{k:enc[k][j] for k in enc} for j in ix],padding=True,return_tensors='pt').to(DEVICE)
    with torch.inference_mode():ps=self.model(**x).logits.float().softmax(-1).cpu().tolist()
    for j,p in zip(ix,ps):probabilities[j]=p
   output=[{f:[None]*len(cs) for f in self.fields} for cs in chunks]
