@@ -1,0 +1,278 @@
+{
+ "split": "holdout",
+ "total": {
+  "cases": 144,
+  "correct": 118,
+  "wrong": 0,
+  "missed": 26
+ },
+ "spurious": 12,
+ "fields": {
+  "ajoneuvoVajosiSuohon": {
+   "cases": 6,
+   "correct": 6,
+   "wrong": 0,
+   "missed": 0,
+   "confusion": {
+    "true>true": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "carelessServiceOrHandling": {
+   "cases": 6,
+   "correct": 6,
+   "wrong": 0,
+   "missed": 0,
+   "confusion": {
+    "true>true": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "competitionPracticeOrTrackUse": {
+   "cases": 6,
+   "correct": 6,
+   "wrong": 0,
+   "missed": 0,
+   "confusion": {
+    "true>true": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "damageCausedByAnimalInVehicle": {
+   "cases": 6,
+   "correct": 6,
+   "wrong": 0,
+   "missed": 0,
+   "confusion": {
+    "true>true": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "damageCausedByDrivingOnWaterCoveredRoadOrArea": {
+   "cases": 6,
+   "correct": 6,
+   "wrong": 0,
+   "missed": 0,
+   "confusion": {
+    "true>true": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "damageCausedByListedCyberEvent": {
+   "cases": 6,
+   "correct": 2,
+   "wrong": 0,
+   "missed": 4,
+   "confusion": {
+    "true>null": 2,
+    "false>null": 2,
+    "null>null": 2
+   }
+  },
+  "damageCausedByVehicleOrCombinationLoad": {
+   "cases": 6,
+   "correct": 6,
+   "wrong": 0,
+   "missed": 0,
+   "confusion": {
+    "true>true": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "damageInNordicArea": {
+   "cases": 6,
+   "correct": 4,
+   "wrong": 0,
+   "missed": 2,
+   "confusion": {
+    "true>true": 2,
+    "false>null": 2,
+    "null>null": 2
+   }
+  },
+  "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime": {
+   "cases": 6,
+   "correct": 4,
+   "wrong": 0,
+   "missed": 2,
+   "confusion": {
+    "true>null": 1,
+    "true>true": 1,
+    "false>null": 1,
+    "false>false": 1,
+    "null>null": 2
+   }
+  },
+  "isDirectConsequenceOfCoveredEvent": {
+   "cases": 6,
+   "correct": 2,
+   "wrong": 0,
+   "missed": 4,
+   "confusion": {
+    "true>null": 2,
+    "false>null": 2,
+    "null>null": 2
+   }
+  },
+  "isLicenseOrSkillCourseTraining": {
+   "cases": 6,
+   "correct": 2,
+   "wrong": 0,
+   "missed": 4,
+   "confusion": {
+    "true>null": 2,
+    "false>null": 2,
+    "null>null": 2
+   }
+  },
+  "isLoadingOrUnloadingDamage": {
+   "cases": 6,
+   "correct": 6,
+   "wrong": 0,
+   "missed": 0,
+   "confusion": {
+    "true>true": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "isTransportNegligence": {
+   "cases": 6,
+   "correct": 6,
+   "wrong": 0,
+   "missed": 0,
+   "confusion": {
+    "true>true": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "myyntiOlisiOllutAlvVelvollinen": {
+   "cases": 6,
+   "correct": 6,
+   "wrong": 0,
+   "missed": 0,
+   "confusion": {
+    "true>true": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad": {
+   "cases": 6,
+   "correct": 6,
+   "wrong": 0,
+   "missed": 0,
+   "confusion": {
+    "true>true": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "nuclearDamagePresent": {
+   "cases": 6,
+   "correct": 4,
+   "wrong": 0,
+   "missed": 2,
+   "confusion": {
+    "true>null": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "osumaYlapuoliseenEsteeseen": {
+   "cases": 6,
+   "correct": 4,
+   "wrong": 0,
+   "missed": 2,
+   "confusion": {
+    "true>true": 2,
+    "false>null": 2,
+    "null>null": 2
+   }
+  },
+  "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance": {
+   "cases": 6,
+   "correct": 4,
+   "wrong": 0,
+   "missed": 2,
+   "confusion": {
+    "true>null": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "policyInForce": {
+   "cases": 6,
+   "correct": 6,
+   "wrong": 0,
+   "missed": 0,
+   "confusion": {
+    "true>true": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "powertrainDamagedByInsufficientOilOrCoolantCirculation": {
+   "cases": 6,
+   "correct": 6,
+   "wrong": 0,
+   "missed": 0,
+   "confusion": {
+    "true>true": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "singleDamageItemScopeConfirmed": {
+   "cases": 6,
+   "correct": 6,
+   "wrong": 0,
+   "missed": 0,
+   "confusion": {
+    "true>true": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "vehicleDamagedByItsOwnPartOrDevice": {
+   "cases": 6,
+   "correct": 6,
+   "wrong": 0,
+   "missed": 0,
+   "confusion": {
+    "true>true": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "waterSnowOrHailEnteredInteriorThroughOpenOpening": {
+   "cases": 6,
+   "correct": 6,
+   "wrong": 0,
+   "missed": 0,
+   "confusion": {
+    "true>true": 2,
+    "false>false": 2,
+    "null>null": 2
+   }
+  },
+  "ylapuolisenEsteenKuljetuspoikkeus": {
+   "cases": 6,
+   "correct": 2,
+   "wrong": 0,
+   "missed": 4,
+   "confusion": {
+    "true>null": 2,
+    "false>null": 2,
+    "null>null": 2
+   }
+  }
+ }
+}

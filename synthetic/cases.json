@@ -1,0 +1,4034 @@
+[
+ {
+  "id": "policyInForce|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": true,
+  "text": "Oliko vakuutus voimassa vahinkohetkellä? Vastaus: Kyllä."
+ },
+ {
+  "id": "policyInForce|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": true,
+  "text": "Kysymys: Oliko vakuutus voimassa vahinkohetkellä?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "policyInForce|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": true,
+  "text": "Oliko vakuutusturva voimassa vahingon sattuessa? Vastaus: Kyllä."
+ },
+ {
+  "id": "policyInForce|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": true,
+  "text": "Kysymys: Oliko vakuutusturva voimassa vahingon sattuessa?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "policyInForce|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": true,
+  "text": "Onko vakuutus ollut voimassa vahinkopäivänä? Vastaus: Kyllä."
+ },
+ {
+  "id": "policyInForce|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": true,
+  "text": "Kysymys: Onko vakuutus ollut voimassa vahinkopäivänä?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "policyInForce|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "policyInForce",
+  "gold": true,
+  "text": "Oliko ajoneuvon vakuutus voimassa silloin, kun vahinko tapahtui? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "policyInForce|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "policyInForce",
+  "gold": true,
+  "text": "Kysymys: Oliko ajoneuvon vakuutus voimassa silloin, kun vahinko tapahtui?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "policyInForce|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": false,
+  "text": "Oliko vakuutus voimassa vahinkohetkellä? Vastaus: Ei."
+ },
+ {
+  "id": "policyInForce|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": false,
+  "text": "Kysymys: Oliko vakuutus voimassa vahinkohetkellä?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "policyInForce|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": false,
+  "text": "Oliko vakuutusturva voimassa vahingon sattuessa? Vastaus: Ei."
+ },
+ {
+  "id": "policyInForce|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": false,
+  "text": "Kysymys: Oliko vakuutusturva voimassa vahingon sattuessa?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "policyInForce|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": false,
+  "text": "Onko vakuutus ollut voimassa vahinkopäivänä? Vastaus: Ei."
+ },
+ {
+  "id": "policyInForce|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": false,
+  "text": "Kysymys: Onko vakuutus ollut voimassa vahinkopäivänä?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "policyInForce|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "policyInForce",
+  "gold": false,
+  "text": "Oliko ajoneuvon vakuutus voimassa silloin, kun vahinko tapahtui? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "policyInForce|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "policyInForce",
+  "gold": false,
+  "text": "Kysymys: Oliko ajoneuvon vakuutus voimassa silloin, kun vahinko tapahtui?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "policyInForce|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": null,
+  "text": "Oliko vakuutus voimassa vahinkohetkellä? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "policyInForce|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": null,
+  "text": "Kysymys: Oliko vakuutus voimassa vahinkohetkellä?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "policyInForce|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": null,
+  "text": "Oliko vakuutusturva voimassa vahingon sattuessa? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "policyInForce|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": null,
+  "text": "Kysymys: Oliko vakuutusturva voimassa vahingon sattuessa?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "policyInForce|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": null,
+  "text": "Onko vakuutus ollut voimassa vahinkopäivänä? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "policyInForce|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "policyInForce",
+  "gold": null,
+  "text": "Kysymys: Onko vakuutus ollut voimassa vahinkopäivänä?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "policyInForce|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "policyInForce",
+  "gold": null,
+  "text": "Oliko ajoneuvon vakuutus voimassa silloin, kun vahinko tapahtui? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "policyInForce|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "policyInForce",
+  "gold": null,
+  "text": "Kysymys: Oliko ajoneuvon vakuutus voimassa silloin, kun vahinko tapahtui?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isTransportNegligence|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": true,
+  "text": "Johtuiko vahinko kuljetuksen aikaisesta huolimattomuudesta? Vastaus: Kyllä."
+ },
+ {
+  "id": "isTransportNegligence|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": true,
+  "text": "Kysymys: Johtuiko vahinko kuljetuksen aikaisesta huolimattomuudesta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "isTransportNegligence|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": true,
+  "text": "Aiheutuiko vahinko huolimattomuudesta ajoneuvoa kuljetettaessa? Vastaus: Kyllä."
+ },
+ {
+  "id": "isTransportNegligence|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": true,
+  "text": "Kysymys: Aiheutuiko vahinko huolimattomuudesta ajoneuvoa kuljetettaessa?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "isTransportNegligence|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": true,
+  "text": "Oliko vahingon syynä huolimattomuus kuljetuksen aikana? Vastaus: Kyllä."
+ },
+ {
+  "id": "isTransportNegligence|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": true,
+  "text": "Kysymys: Oliko vahingon syynä huolimattomuus kuljetuksen aikana?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "isTransportNegligence|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "isTransportNegligence",
+  "gold": true,
+  "text": "Sattuiko vahinko siksi, että ajoneuvon kuljetuksessa oltiin huolimattomia? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isTransportNegligence|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "isTransportNegligence",
+  "gold": true,
+  "text": "Kysymys: Sattuiko vahinko siksi, että ajoneuvon kuljetuksessa oltiin huolimattomia?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isTransportNegligence|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": false,
+  "text": "Johtuiko vahinko kuljetuksen aikaisesta huolimattomuudesta? Vastaus: Ei."
+ },
+ {
+  "id": "isTransportNegligence|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": false,
+  "text": "Kysymys: Johtuiko vahinko kuljetuksen aikaisesta huolimattomuudesta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "isTransportNegligence|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": false,
+  "text": "Aiheutuiko vahinko huolimattomuudesta ajoneuvoa kuljetettaessa? Vastaus: Ei."
+ },
+ {
+  "id": "isTransportNegligence|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": false,
+  "text": "Kysymys: Aiheutuiko vahinko huolimattomuudesta ajoneuvoa kuljetettaessa?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "isTransportNegligence|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": false,
+  "text": "Oliko vahingon syynä huolimattomuus kuljetuksen aikana? Vastaus: Ei."
+ },
+ {
+  "id": "isTransportNegligence|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": false,
+  "text": "Kysymys: Oliko vahingon syynä huolimattomuus kuljetuksen aikana?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "isTransportNegligence|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "isTransportNegligence",
+  "gold": false,
+  "text": "Sattuiko vahinko siksi, että ajoneuvon kuljetuksessa oltiin huolimattomia? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isTransportNegligence|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "isTransportNegligence",
+  "gold": false,
+  "text": "Kysymys: Sattuiko vahinko siksi, että ajoneuvon kuljetuksessa oltiin huolimattomia?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isTransportNegligence|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": null,
+  "text": "Johtuiko vahinko kuljetuksen aikaisesta huolimattomuudesta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "isTransportNegligence|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": null,
+  "text": "Kysymys: Johtuiko vahinko kuljetuksen aikaisesta huolimattomuudesta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "isTransportNegligence|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": null,
+  "text": "Aiheutuiko vahinko huolimattomuudesta ajoneuvoa kuljetettaessa? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "isTransportNegligence|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": null,
+  "text": "Kysymys: Aiheutuiko vahinko huolimattomuudesta ajoneuvoa kuljetettaessa?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "isTransportNegligence|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": null,
+  "text": "Oliko vahingon syynä huolimattomuus kuljetuksen aikana? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "isTransportNegligence|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "isTransportNegligence",
+  "gold": null,
+  "text": "Kysymys: Oliko vahingon syynä huolimattomuus kuljetuksen aikana?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "isTransportNegligence|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "isTransportNegligence",
+  "gold": null,
+  "text": "Sattuiko vahinko siksi, että ajoneuvon kuljetuksessa oltiin huolimattomia? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isTransportNegligence|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "isTransportNegligence",
+  "gold": null,
+  "text": "Kysymys: Sattuiko vahinko siksi, että ajoneuvon kuljetuksessa oltiin huolimattomia?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": true,
+  "text": "Tapahtuiko vahinko ajokortti- tai ajotaitokurssilla? Vastaus: Kyllä."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": true,
+  "text": "Kysymys: Tapahtuiko vahinko ajokortti- tai ajotaitokurssilla?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": true,
+  "text": "Oliko vahinkohetkellä kyse ajokorttikoulutuksesta tai ajotaitokurssista? Vastaus: Kyllä."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": true,
+  "text": "Kysymys: Oliko vahinkohetkellä kyse ajokorttikoulutuksesta tai ajotaitokurssista?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": true,
+  "text": "Ajettiinko ajoneuvoa vahinkohetkellä ajokortti- tai ajotaitokoulutuksessa? Vastaus: Kyllä."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": true,
+  "text": "Kysymys: Ajettiinko ajoneuvoa vahinkohetkellä ajokortti- tai ajotaitokoulutuksessa?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": true,
+  "text": "Sattuiko vahinko ajo-opetuksen tai ajotaitokurssin aikana? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": true,
+  "text": "Kysymys: Sattuiko vahinko ajo-opetuksen tai ajotaitokurssin aikana?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": false,
+  "text": "Tapahtuiko vahinko ajokortti- tai ajotaitokurssilla? Vastaus: Ei."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": false,
+  "text": "Kysymys: Tapahtuiko vahinko ajokortti- tai ajotaitokurssilla?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": false,
+  "text": "Oliko vahinkohetkellä kyse ajokorttikoulutuksesta tai ajotaitokurssista? Vastaus: Ei."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": false,
+  "text": "Kysymys: Oliko vahinkohetkellä kyse ajokorttikoulutuksesta tai ajotaitokurssista?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": false,
+  "text": "Ajettiinko ajoneuvoa vahinkohetkellä ajokortti- tai ajotaitokoulutuksessa? Vastaus: Ei."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": false,
+  "text": "Kysymys: Ajettiinko ajoneuvoa vahinkohetkellä ajokortti- tai ajotaitokoulutuksessa?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": false,
+  "text": "Sattuiko vahinko ajo-opetuksen tai ajotaitokurssin aikana? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": false,
+  "text": "Kysymys: Sattuiko vahinko ajo-opetuksen tai ajotaitokurssin aikana?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": null,
+  "text": "Tapahtuiko vahinko ajokortti- tai ajotaitokurssilla? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": null,
+  "text": "Kysymys: Tapahtuiko vahinko ajokortti- tai ajotaitokurssilla?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": null,
+  "text": "Oliko vahinkohetkellä kyse ajokorttikoulutuksesta tai ajotaitokurssista? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": null,
+  "text": "Kysymys: Oliko vahinkohetkellä kyse ajokorttikoulutuksesta tai ajotaitokurssista?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": null,
+  "text": "Ajettiinko ajoneuvoa vahinkohetkellä ajokortti- tai ajotaitokoulutuksessa? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": null,
+  "text": "Kysymys: Ajettiinko ajoneuvoa vahinkohetkellä ajokortti- tai ajotaitokoulutuksessa?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": null,
+  "text": "Sattuiko vahinko ajo-opetuksen tai ajotaitokurssin aikana? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "isLicenseOrSkillCourseTraining",
+  "gold": null,
+  "text": "Kysymys: Sattuiko vahinko ajo-opetuksen tai ajotaitokurssin aikana?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageInNordicArea|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": true,
+  "text": "Sattuiko vahinko Pohjoismaissa? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageInNordicArea|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": true,
+  "text": "Kysymys: Sattuiko vahinko Pohjoismaissa?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageInNordicArea|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": true,
+  "text": "Tapahtuiko vahinko jossakin Pohjoismaassa? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageInNordicArea|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": true,
+  "text": "Kysymys: Tapahtuiko vahinko jossakin Pohjoismaassa?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageInNordicArea|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": true,
+  "text": "Oliko vahinkopaikka Pohjoismaiden alueella? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageInNordicArea|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": true,
+  "text": "Kysymys: Oliko vahinkopaikka Pohjoismaiden alueella?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageInNordicArea|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageInNordicArea",
+  "gold": true,
+  "text": "Onko vahinko sattunut Pohjoismaiden alueella? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageInNordicArea|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageInNordicArea",
+  "gold": true,
+  "text": "Kysymys: Onko vahinko sattunut Pohjoismaiden alueella?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageInNordicArea|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": false,
+  "text": "Sattuiko vahinko Pohjoismaissa? Vastaus: Ei."
+ },
+ {
+  "id": "damageInNordicArea|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": false,
+  "text": "Kysymys: Sattuiko vahinko Pohjoismaissa?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageInNordicArea|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": false,
+  "text": "Tapahtuiko vahinko jossakin Pohjoismaassa? Vastaus: Ei."
+ },
+ {
+  "id": "damageInNordicArea|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": false,
+  "text": "Kysymys: Tapahtuiko vahinko jossakin Pohjoismaassa?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageInNordicArea|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": false,
+  "text": "Oliko vahinkopaikka Pohjoismaiden alueella? Vastaus: Ei."
+ },
+ {
+  "id": "damageInNordicArea|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": false,
+  "text": "Kysymys: Oliko vahinkopaikka Pohjoismaiden alueella?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageInNordicArea|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageInNordicArea",
+  "gold": false,
+  "text": "Onko vahinko sattunut Pohjoismaiden alueella? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageInNordicArea|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageInNordicArea",
+  "gold": false,
+  "text": "Kysymys: Onko vahinko sattunut Pohjoismaiden alueella?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageInNordicArea|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": null,
+  "text": "Sattuiko vahinko Pohjoismaissa? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageInNordicArea|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": null,
+  "text": "Kysymys: Sattuiko vahinko Pohjoismaissa?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageInNordicArea|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": null,
+  "text": "Tapahtuiko vahinko jossakin Pohjoismaassa? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageInNordicArea|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": null,
+  "text": "Kysymys: Tapahtuiko vahinko jossakin Pohjoismaassa?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageInNordicArea|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": null,
+  "text": "Oliko vahinkopaikka Pohjoismaiden alueella? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageInNordicArea|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageInNordicArea",
+  "gold": null,
+  "text": "Kysymys: Oliko vahinkopaikka Pohjoismaiden alueella?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageInNordicArea|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageInNordicArea",
+  "gold": null,
+  "text": "Onko vahinko sattunut Pohjoismaiden alueella? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageInNordicArea|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageInNordicArea",
+  "gold": null,
+  "text": "Kysymys: Onko vahinko sattunut Pohjoismaiden alueella?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": true,
+  "text": "Olisiko ajoneuvon myynti ollut arvonlisäverovelvollista? Vastaus: Kyllä."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": true,
+  "text": "Kysymys: Olisiko ajoneuvon myynti ollut arvonlisäverovelvollista?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": true,
+  "text": "Olisiko ajoneuvon myynnistä pitänyt maksaa arvonlisävero? Vastaus: Kyllä."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": true,
+  "text": "Kysymys: Olisiko ajoneuvon myynnistä pitänyt maksaa arvonlisävero?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": true,
+  "text": "Olisiko ajoneuvon myyntiin liittynyt arvonlisäverovelvollisuus? Vastaus: Kyllä."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": true,
+  "text": "Kysymys: Olisiko ajoneuvon myyntiin liittynyt arvonlisäverovelvollisuus?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": true,
+  "text": "Olisiko myyntitilanteessa sovellettu arvonlisäveroa ajoneuvon hintaan? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": true,
+  "text": "Kysymys: Olisiko myyntitilanteessa sovellettu arvonlisäveroa ajoneuvon hintaan?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": false,
+  "text": "Olisiko ajoneuvon myynti ollut arvonlisäverovelvollista? Vastaus: Ei."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": false,
+  "text": "Kysymys: Olisiko ajoneuvon myynti ollut arvonlisäverovelvollista?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": false,
+  "text": "Olisiko ajoneuvon myynnistä pitänyt maksaa arvonlisävero? Vastaus: Ei."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": false,
+  "text": "Kysymys: Olisiko ajoneuvon myynnistä pitänyt maksaa arvonlisävero?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": false,
+  "text": "Olisiko ajoneuvon myyntiin liittynyt arvonlisäverovelvollisuus? Vastaus: Ei."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": false,
+  "text": "Kysymys: Olisiko ajoneuvon myyntiin liittynyt arvonlisäverovelvollisuus?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": false,
+  "text": "Olisiko myyntitilanteessa sovellettu arvonlisäveroa ajoneuvon hintaan? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": false,
+  "text": "Kysymys: Olisiko myyntitilanteessa sovellettu arvonlisäveroa ajoneuvon hintaan?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": null,
+  "text": "Olisiko ajoneuvon myynti ollut arvonlisäverovelvollista? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": null,
+  "text": "Kysymys: Olisiko ajoneuvon myynti ollut arvonlisäverovelvollista?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": null,
+  "text": "Olisiko ajoneuvon myynnistä pitänyt maksaa arvonlisävero? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": null,
+  "text": "Kysymys: Olisiko ajoneuvon myynnistä pitänyt maksaa arvonlisävero?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": null,
+  "text": "Olisiko ajoneuvon myyntiin liittynyt arvonlisäverovelvollisuus? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": null,
+  "text": "Kysymys: Olisiko ajoneuvon myyntiin liittynyt arvonlisäverovelvollisuus?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": null,
+  "text": "Olisiko myyntitilanteessa sovellettu arvonlisäveroa ajoneuvon hintaan? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "myyntiOlisiOllutAlvVelvollinen",
+  "gold": null,
+  "text": "Kysymys: Olisiko myyntitilanteessa sovellettu arvonlisäveroa ajoneuvon hintaan?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": true,
+  "text": "Oliko vahinko välitön seuraus korvattavasta tapahtumasta? Vastaus: Kyllä."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": true,
+  "text": "Kysymys: Oliko vahinko välitön seuraus korvattavasta tapahtumasta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": true,
+  "text": "Johtuiko vahinko suoraan korvattavasta tapahtumasta? Vastaus: Kyllä."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": true,
+  "text": "Kysymys: Johtuiko vahinko suoraan korvattavasta tapahtumasta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": true,
+  "text": "Aiheutuiko vahinko välittömästi korvattavan tapahtuman seurauksena? Vastaus: Kyllä."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": true,
+  "text": "Kysymys: Aiheutuiko vahinko välittömästi korvattavan tapahtuman seurauksena?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": true,
+  "text": "Oliko vahingon välitön syy korvattava tapahtuma? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": true,
+  "text": "Kysymys: Oliko vahingon välitön syy korvattava tapahtuma?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": false,
+  "text": "Oliko vahinko välitön seuraus korvattavasta tapahtumasta? Vastaus: Ei."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": false,
+  "text": "Kysymys: Oliko vahinko välitön seuraus korvattavasta tapahtumasta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": false,
+  "text": "Johtuiko vahinko suoraan korvattavasta tapahtumasta? Vastaus: Ei."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": false,
+  "text": "Kysymys: Johtuiko vahinko suoraan korvattavasta tapahtumasta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": false,
+  "text": "Aiheutuiko vahinko välittömästi korvattavan tapahtuman seurauksena? Vastaus: Ei."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": false,
+  "text": "Kysymys: Aiheutuiko vahinko välittömästi korvattavan tapahtuman seurauksena?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": false,
+  "text": "Oliko vahingon välitön syy korvattava tapahtuma? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": false,
+  "text": "Kysymys: Oliko vahingon välitön syy korvattava tapahtuma?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": null,
+  "text": "Oliko vahinko välitön seuraus korvattavasta tapahtumasta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": null,
+  "text": "Kysymys: Oliko vahinko välitön seuraus korvattavasta tapahtumasta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": null,
+  "text": "Johtuiko vahinko suoraan korvattavasta tapahtumasta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": null,
+  "text": "Kysymys: Johtuiko vahinko suoraan korvattavasta tapahtumasta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": null,
+  "text": "Aiheutuiko vahinko välittömästi korvattavan tapahtuman seurauksena? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": null,
+  "text": "Kysymys: Aiheutuiko vahinko välittömästi korvattavan tapahtuman seurauksena?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": null,
+  "text": "Oliko vahingon välitön syy korvattava tapahtuma? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "isDirectConsequenceOfCoveredEvent",
+  "gold": null,
+  "text": "Kysymys: Oliko vahingon välitön syy korvattava tapahtuma?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": true,
+  "text": "Syntyikö vahinko lastauksen tai purkamisen yhteydessä? Vastaus: Kyllä."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": true,
+  "text": "Kysymys: Syntyikö vahinko lastauksen tai purkamisen yhteydessä?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": true,
+  "text": "Tapahtuiko vahinko ajoneuvoa lastattaessa tai purettaessa? Vastaus: Kyllä."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": true,
+  "text": "Kysymys: Tapahtuiko vahinko ajoneuvoa lastattaessa tai purettaessa?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": true,
+  "text": "Oliko kyse lastaus- tai purkutilanteessa syntyneestä vahingosta? Vastaus: Kyllä."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": true,
+  "text": "Kysymys: Oliko kyse lastaus- tai purkutilanteessa syntyneestä vahingosta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": true,
+  "text": "Sattuiko vahinko lastauksen tai purun aikana? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": true,
+  "text": "Kysymys: Sattuiko vahinko lastauksen tai purun aikana?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": false,
+  "text": "Syntyikö vahinko lastauksen tai purkamisen yhteydessä? Vastaus: Ei."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": false,
+  "text": "Kysymys: Syntyikö vahinko lastauksen tai purkamisen yhteydessä?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": false,
+  "text": "Tapahtuiko vahinko ajoneuvoa lastattaessa tai purettaessa? Vastaus: Ei."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": false,
+  "text": "Kysymys: Tapahtuiko vahinko ajoneuvoa lastattaessa tai purettaessa?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": false,
+  "text": "Oliko kyse lastaus- tai purkutilanteessa syntyneestä vahingosta? Vastaus: Ei."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": false,
+  "text": "Kysymys: Oliko kyse lastaus- tai purkutilanteessa syntyneestä vahingosta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": false,
+  "text": "Sattuiko vahinko lastauksen tai purun aikana? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": false,
+  "text": "Kysymys: Sattuiko vahinko lastauksen tai purun aikana?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": null,
+  "text": "Syntyikö vahinko lastauksen tai purkamisen yhteydessä? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": null,
+  "text": "Kysymys: Syntyikö vahinko lastauksen tai purkamisen yhteydessä?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": null,
+  "text": "Tapahtuiko vahinko ajoneuvoa lastattaessa tai purettaessa? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": null,
+  "text": "Kysymys: Tapahtuiko vahinko ajoneuvoa lastattaessa tai purettaessa?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": null,
+  "text": "Oliko kyse lastaus- tai purkutilanteessa syntyneestä vahingosta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": null,
+  "text": "Kysymys: Oliko kyse lastaus- tai purkutilanteessa syntyneestä vahingosta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": null,
+  "text": "Sattuiko vahinko lastauksen tai purun aikana? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "isLoadingOrUnloadingDamage",
+  "gold": null,
+  "text": "Kysymys: Sattuiko vahinko lastauksen tai purun aikana?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": true,
+  "text": "Vaurioituiko voimansiirto riittämättömän öljyn tai jäähdytysnesteen kierron takia? Vastaus: Kyllä."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": true,
+  "text": "Kysymys: Vaurioituiko voimansiirto riittämättömän öljyn tai jäähdytysnesteen kierron takia?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": true,
+  "text": "Johtuiko voimansiirron vaurio siitä, että öljy tai jäähdytysneste ei kiertänyt riittävästi? Vastaus: Kyllä."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": true,
+  "text": "Kysymys: Johtuiko voimansiirron vaurio siitä, että öljy tai jäähdytysneste ei kiertänyt riittävästi?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": true,
+  "text": "Aiheutuiko voimansiirron vaurio puutteellisesta öljyn tai jäähdytysnesteen kierrosta? Vastaus: Kyllä."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": true,
+  "text": "Kysymys: Aiheutuiko voimansiirron vaurio puutteellisesta öljyn tai jäähdytysnesteen kierrosta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": true,
+  "text": "Oliko voimansiirron vaurion syynä liian vähäinen öljyn tai jäähdytysnesteen kierto? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": true,
+  "text": "Kysymys: Oliko voimansiirron vaurion syynä liian vähäinen öljyn tai jäähdytysnesteen kierto?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": false,
+  "text": "Vaurioituiko voimansiirto riittämättömän öljyn tai jäähdytysnesteen kierron takia? Vastaus: Ei."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": false,
+  "text": "Kysymys: Vaurioituiko voimansiirto riittämättömän öljyn tai jäähdytysnesteen kierron takia?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": false,
+  "text": "Johtuiko voimansiirron vaurio siitä, että öljy tai jäähdytysneste ei kiertänyt riittävästi? Vastaus: Ei."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": false,
+  "text": "Kysymys: Johtuiko voimansiirron vaurio siitä, että öljy tai jäähdytysneste ei kiertänyt riittävästi?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": false,
+  "text": "Aiheutuiko voimansiirron vaurio puutteellisesta öljyn tai jäähdytysnesteen kierrosta? Vastaus: Ei."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": false,
+  "text": "Kysymys: Aiheutuiko voimansiirron vaurio puutteellisesta öljyn tai jäähdytysnesteen kierrosta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": false,
+  "text": "Oliko voimansiirron vaurion syynä liian vähäinen öljyn tai jäähdytysnesteen kierto? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": false,
+  "text": "Kysymys: Oliko voimansiirron vaurion syynä liian vähäinen öljyn tai jäähdytysnesteen kierto?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": null,
+  "text": "Vaurioituiko voimansiirto riittämättömän öljyn tai jäähdytysnesteen kierron takia? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": null,
+  "text": "Kysymys: Vaurioituiko voimansiirto riittämättömän öljyn tai jäähdytysnesteen kierron takia?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": null,
+  "text": "Johtuiko voimansiirron vaurio siitä, että öljy tai jäähdytysneste ei kiertänyt riittävästi? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": null,
+  "text": "Kysymys: Johtuiko voimansiirron vaurio siitä, että öljy tai jäähdytysneste ei kiertänyt riittävästi?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": null,
+  "text": "Aiheutuiko voimansiirron vaurio puutteellisesta öljyn tai jäähdytysnesteen kierrosta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": null,
+  "text": "Kysymys: Aiheutuiko voimansiirron vaurio puutteellisesta öljyn tai jäähdytysnesteen kierrosta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": null,
+  "text": "Oliko voimansiirron vaurion syynä liian vähäinen öljyn tai jäähdytysnesteen kierto? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "powertrainDamagedByInsufficientOilOrCoolantCirculation",
+  "gold": null,
+  "text": "Kysymys: Oliko voimansiirron vaurion syynä liian vähäinen öljyn tai jäähdytysnesteen kierto?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": true,
+  "text": "Johtuiko osan tai laitteen vaurio viasta, kulumisesta tai puutteellisesta huollosta? Vastaus: Kyllä."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": true,
+  "text": "Kysymys: Johtuiko osan tai laitteen vaurio viasta, kulumisesta tai puutteellisesta huollosta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": true,
+  "text": "Vaurioituiko osa tai laite vian, kulumisen tai huollon laiminlyönnin vuoksi? Vastaus: Kyllä."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": true,
+  "text": "Kysymys: Vaurioituiko osa tai laite vian, kulumisen tai huollon laiminlyönnin vuoksi?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": true,
+  "text": "Aiheutuiko osan tai laitteen vaurio viasta, kulumisesta tai puutteellisesta kunnossapidosta? Vastaus: Kyllä."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": true,
+  "text": "Kysymys: Aiheutuiko osan tai laitteen vaurio viasta, kulumisesta tai puutteellisesta kunnossapidosta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": true,
+  "text": "Oliko osan tai laitteen vaurion syy vika, kuluminen tai huoltamattomuus? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": true,
+  "text": "Kysymys: Oliko osan tai laitteen vaurion syy vika, kuluminen tai huoltamattomuus?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": false,
+  "text": "Johtuiko osan tai laitteen vaurio viasta, kulumisesta tai puutteellisesta huollosta? Vastaus: Ei."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": false,
+  "text": "Kysymys: Johtuiko osan tai laitteen vaurio viasta, kulumisesta tai puutteellisesta huollosta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": false,
+  "text": "Vaurioituiko osa tai laite vian, kulumisen tai huollon laiminlyönnin vuoksi? Vastaus: Ei."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": false,
+  "text": "Kysymys: Vaurioituiko osa tai laite vian, kulumisen tai huollon laiminlyönnin vuoksi?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": false,
+  "text": "Aiheutuiko osan tai laitteen vaurio viasta, kulumisesta tai puutteellisesta kunnossapidosta? Vastaus: Ei."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": false,
+  "text": "Kysymys: Aiheutuiko osan tai laitteen vaurio viasta, kulumisesta tai puutteellisesta kunnossapidosta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": false,
+  "text": "Oliko osan tai laitteen vaurion syy vika, kuluminen tai huoltamattomuus? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": false,
+  "text": "Kysymys: Oliko osan tai laitteen vaurion syy vika, kuluminen tai huoltamattomuus?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": null,
+  "text": "Johtuiko osan tai laitteen vaurio viasta, kulumisesta tai puutteellisesta huollosta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": null,
+  "text": "Kysymys: Johtuiko osan tai laitteen vaurio viasta, kulumisesta tai puutteellisesta huollosta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": null,
+  "text": "Vaurioituiko osa tai laite vian, kulumisen tai huollon laiminlyönnin vuoksi? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": null,
+  "text": "Kysymys: Vaurioituiko osa tai laite vian, kulumisen tai huollon laiminlyönnin vuoksi?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": null,
+  "text": "Aiheutuiko osan tai laitteen vaurio viasta, kulumisesta tai puutteellisesta kunnossapidosta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": null,
+  "text": "Kysymys: Aiheutuiko osan tai laitteen vaurio viasta, kulumisesta tai puutteellisesta kunnossapidosta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": null,
+  "text": "Oliko osan tai laitteen vaurion syy vika, kuluminen tai huoltamattomuus? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance",
+  "gold": null,
+  "text": "Kysymys: Oliko osan tai laitteen vaurion syy vika, kuluminen tai huoltamattomuus?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": true,
+  "text": "Aiheutuiko vahinko ajamisesta veden peittämällä tiellä tai alueella? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": true,
+  "text": "Kysymys: Aiheutuiko vahinko ajamisesta veden peittämällä tiellä tai alueella?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": true,
+  "text": "Tapahtuiko vahinko ajettaessa veden peittämällä tiellä tai alueella? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": true,
+  "text": "Kysymys: Tapahtuiko vahinko ajettaessa veden peittämällä tiellä tai alueella?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": true,
+  "text": "Ajettiinko vahinkohetkellä veden peittämälle tielle tai alueelle? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": true,
+  "text": "Kysymys: Ajettiinko vahinkohetkellä veden peittämälle tielle tai alueelle?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": true,
+  "text": "Johtuiko vahinko siitä, että ajoneuvolla ajettiin veden peittämällä alueella? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": true,
+  "text": "Kysymys: Johtuiko vahinko siitä, että ajoneuvolla ajettiin veden peittämällä alueella?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": false,
+  "text": "Aiheutuiko vahinko ajamisesta veden peittämällä tiellä tai alueella? Vastaus: Ei."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": false,
+  "text": "Kysymys: Aiheutuiko vahinko ajamisesta veden peittämällä tiellä tai alueella?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": false,
+  "text": "Tapahtuiko vahinko ajettaessa veden peittämällä tiellä tai alueella? Vastaus: Ei."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": false,
+  "text": "Kysymys: Tapahtuiko vahinko ajettaessa veden peittämällä tiellä tai alueella?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": false,
+  "text": "Ajettiinko vahinkohetkellä veden peittämälle tielle tai alueelle? Vastaus: Ei."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": false,
+  "text": "Kysymys: Ajettiinko vahinkohetkellä veden peittämälle tielle tai alueelle?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": false,
+  "text": "Johtuiko vahinko siitä, että ajoneuvolla ajettiin veden peittämällä alueella? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": false,
+  "text": "Kysymys: Johtuiko vahinko siitä, että ajoneuvolla ajettiin veden peittämällä alueella?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": null,
+  "text": "Aiheutuiko vahinko ajamisesta veden peittämällä tiellä tai alueella? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": null,
+  "text": "Kysymys: Aiheutuiko vahinko ajamisesta veden peittämällä tiellä tai alueella?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": null,
+  "text": "Tapahtuiko vahinko ajettaessa veden peittämällä tiellä tai alueella? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": null,
+  "text": "Kysymys: Tapahtuiko vahinko ajettaessa veden peittämällä tiellä tai alueella?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": null,
+  "text": "Ajettiinko vahinkohetkellä veden peittämälle tielle tai alueelle? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": null,
+  "text": "Kysymys: Ajettiinko vahinkohetkellä veden peittämälle tielle tai alueelle?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": null,
+  "text": "Johtuiko vahinko siitä, että ajoneuvolla ajettiin veden peittämällä alueella? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageCausedByDrivingOnWaterCoveredRoadOrArea",
+  "gold": null,
+  "text": "Kysymys: Johtuiko vahinko siitä, että ajoneuvolla ajettiin veden peittämällä alueella?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": true,
+  "text": "Pääsikö vettä, lunta tai rakeita sisätiloihin avoimen aukon kautta? Vastaus: Kyllä."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": true,
+  "text": "Kysymys: Pääsikö vettä, lunta tai rakeita sisätiloihin avoimen aukon kautta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": true,
+  "text": "Tunkeutuiko vesi, lumi tai rae ajoneuvon sisään avoimesta aukosta? Vastaus: Kyllä."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": true,
+  "text": "Kysymys: Tunkeutuiko vesi, lumi tai rae ajoneuvon sisään avoimesta aukosta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": true,
+  "text": "Oliko vettä, lunta tai rakeita päässyt sisätiloihin avoimen ikkunan tai luukun kautta? Vastaus: Kyllä."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": true,
+  "text": "Kysymys: Oliko vettä, lunta tai rakeita päässyt sisätiloihin avoimen ikkunan tai luukun kautta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": true,
+  "text": "Kulkeutuiko vesi, lumi tai rae sisätiloihin avoinna olleen aukon kautta? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": true,
+  "text": "Kysymys: Kulkeutuiko vesi, lumi tai rae sisätiloihin avoinna olleen aukon kautta?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": false,
+  "text": "Pääsikö vettä, lunta tai rakeita sisätiloihin avoimen aukon kautta? Vastaus: Ei."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": false,
+  "text": "Kysymys: Pääsikö vettä, lunta tai rakeita sisätiloihin avoimen aukon kautta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": false,
+  "text": "Tunkeutuiko vesi, lumi tai rae ajoneuvon sisään avoimesta aukosta? Vastaus: Ei."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": false,
+  "text": "Kysymys: Tunkeutuiko vesi, lumi tai rae ajoneuvon sisään avoimesta aukosta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": false,
+  "text": "Oliko vettä, lunta tai rakeita päässyt sisätiloihin avoimen ikkunan tai luukun kautta? Vastaus: Ei."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": false,
+  "text": "Kysymys: Oliko vettä, lunta tai rakeita päässyt sisätiloihin avoimen ikkunan tai luukun kautta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": false,
+  "text": "Kulkeutuiko vesi, lumi tai rae sisätiloihin avoinna olleen aukon kautta? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": false,
+  "text": "Kysymys: Kulkeutuiko vesi, lumi tai rae sisätiloihin avoinna olleen aukon kautta?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": null,
+  "text": "Pääsikö vettä, lunta tai rakeita sisätiloihin avoimen aukon kautta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": null,
+  "text": "Kysymys: Pääsikö vettä, lunta tai rakeita sisätiloihin avoimen aukon kautta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": null,
+  "text": "Tunkeutuiko vesi, lumi tai rae ajoneuvon sisään avoimesta aukosta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": null,
+  "text": "Kysymys: Tunkeutuiko vesi, lumi tai rae ajoneuvon sisään avoimesta aukosta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": null,
+  "text": "Oliko vettä, lunta tai rakeita päässyt sisätiloihin avoimen ikkunan tai luukun kautta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": null,
+  "text": "Kysymys: Oliko vettä, lunta tai rakeita päässyt sisätiloihin avoimen ikkunan tai luukun kautta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": null,
+  "text": "Kulkeutuiko vesi, lumi tai rae sisätiloihin avoinna olleen aukon kautta? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "waterSnowOrHailEnteredInteriorThroughOpenOpening",
+  "gold": null,
+  "text": "Kysymys: Kulkeutuiko vesi, lumi tai rae sisätiloihin avoinna olleen aukon kautta?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "carelessServiceOrHandling|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": true,
+  "text": "Johtuiko vahinko huolimattomasta huollosta tai käsittelystä? Vastaus: Kyllä."
+ },
+ {
+  "id": "carelessServiceOrHandling|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": true,
+  "text": "Kysymys: Johtuiko vahinko huolimattomasta huollosta tai käsittelystä?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "carelessServiceOrHandling|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": true,
+  "text": "Aiheutuiko vahinko huolimattomasta huoltotyöstä tai käsittelystä? Vastaus: Kyllä."
+ },
+ {
+  "id": "carelessServiceOrHandling|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": true,
+  "text": "Kysymys: Aiheutuiko vahinko huolimattomasta huoltotyöstä tai käsittelystä?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "carelessServiceOrHandling|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": true,
+  "text": "Oliko vahingon syynä huolimaton huolto tai käsittely? Vastaus: Kyllä."
+ },
+ {
+  "id": "carelessServiceOrHandling|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": true,
+  "text": "Kysymys: Oliko vahingon syynä huolimaton huolto tai käsittely?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "carelessServiceOrHandling|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "carelessServiceOrHandling",
+  "gold": true,
+  "text": "Syntyikö vahinko siitä, että ajoneuvoa huollettiin tai käsiteltiin huolimattomasti? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "carelessServiceOrHandling|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "carelessServiceOrHandling",
+  "gold": true,
+  "text": "Kysymys: Syntyikö vahinko siitä, että ajoneuvoa huollettiin tai käsiteltiin huolimattomasti?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "carelessServiceOrHandling|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": false,
+  "text": "Johtuiko vahinko huolimattomasta huollosta tai käsittelystä? Vastaus: Ei."
+ },
+ {
+  "id": "carelessServiceOrHandling|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": false,
+  "text": "Kysymys: Johtuiko vahinko huolimattomasta huollosta tai käsittelystä?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "carelessServiceOrHandling|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": false,
+  "text": "Aiheutuiko vahinko huolimattomasta huoltotyöstä tai käsittelystä? Vastaus: Ei."
+ },
+ {
+  "id": "carelessServiceOrHandling|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": false,
+  "text": "Kysymys: Aiheutuiko vahinko huolimattomasta huoltotyöstä tai käsittelystä?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "carelessServiceOrHandling|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": false,
+  "text": "Oliko vahingon syynä huolimaton huolto tai käsittely? Vastaus: Ei."
+ },
+ {
+  "id": "carelessServiceOrHandling|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": false,
+  "text": "Kysymys: Oliko vahingon syynä huolimaton huolto tai käsittely?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "carelessServiceOrHandling|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "carelessServiceOrHandling",
+  "gold": false,
+  "text": "Syntyikö vahinko siitä, että ajoneuvoa huollettiin tai käsiteltiin huolimattomasti? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "carelessServiceOrHandling|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "carelessServiceOrHandling",
+  "gold": false,
+  "text": "Kysymys: Syntyikö vahinko siitä, että ajoneuvoa huollettiin tai käsiteltiin huolimattomasti?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "carelessServiceOrHandling|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": null,
+  "text": "Johtuiko vahinko huolimattomasta huollosta tai käsittelystä? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "carelessServiceOrHandling|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": null,
+  "text": "Kysymys: Johtuiko vahinko huolimattomasta huollosta tai käsittelystä?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "carelessServiceOrHandling|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": null,
+  "text": "Aiheutuiko vahinko huolimattomasta huoltotyöstä tai käsittelystä? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "carelessServiceOrHandling|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": null,
+  "text": "Kysymys: Aiheutuiko vahinko huolimattomasta huoltotyöstä tai käsittelystä?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "carelessServiceOrHandling|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": null,
+  "text": "Oliko vahingon syynä huolimaton huolto tai käsittely? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "carelessServiceOrHandling|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "carelessServiceOrHandling",
+  "gold": null,
+  "text": "Kysymys: Oliko vahingon syynä huolimaton huolto tai käsittely?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "carelessServiceOrHandling|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "carelessServiceOrHandling",
+  "gold": null,
+  "text": "Syntyikö vahinko siitä, että ajoneuvoa huollettiin tai käsiteltiin huolimattomasti? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "carelessServiceOrHandling|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "carelessServiceOrHandling",
+  "gold": null,
+  "text": "Kysymys: Syntyikö vahinko siitä, että ajoneuvoa huollettiin tai käsiteltiin huolimattomasti?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": true,
+  "text": "Vajosiko ajoneuvo jään läpi hyväksytyn talvitien ulkopuolella? Vastaus: Kyllä."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": true,
+  "text": "Kysymys: Vajosiko ajoneuvo jään läpi hyväksytyn talvitien ulkopuolella?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": true,
+  "text": "Putosiko ajoneuvo jään läpi muualla kuin hyväksytyllä talvitiellä? Vastaus: Kyllä."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": true,
+  "text": "Kysymys: Putosiko ajoneuvo jään läpi muualla kuin hyväksytyllä talvitiellä?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": true,
+  "text": "Upposiko ajoneuvo jäihin hyväksytyn talvitien ulkopuolella? Vastaus: Kyllä."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": true,
+  "text": "Kysymys: Upposiko ajoneuvo jäihin hyväksytyn talvitien ulkopuolella?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": true,
+  "text": "Oliko kyse ajoneuvosta, joka vajosi jään läpi muulla kuin hyväksytyllä talvitiellä? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": true,
+  "text": "Kysymys: Oliko kyse ajoneuvosta, joka vajosi jään läpi muulla kuin hyväksytyllä talvitiellä?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": false,
+  "text": "Vajosiko ajoneuvo jään läpi hyväksytyn talvitien ulkopuolella? Vastaus: Ei."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": false,
+  "text": "Kysymys: Vajosiko ajoneuvo jään läpi hyväksytyn talvitien ulkopuolella?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": false,
+  "text": "Putosiko ajoneuvo jään läpi muualla kuin hyväksytyllä talvitiellä? Vastaus: Ei."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": false,
+  "text": "Kysymys: Putosiko ajoneuvo jään läpi muualla kuin hyväksytyllä talvitiellä?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": false,
+  "text": "Upposiko ajoneuvo jäihin hyväksytyn talvitien ulkopuolella? Vastaus: Ei."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": false,
+  "text": "Kysymys: Upposiko ajoneuvo jäihin hyväksytyn talvitien ulkopuolella?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": false,
+  "text": "Oliko kyse ajoneuvosta, joka vajosi jään läpi muulla kuin hyväksytyllä talvitiellä? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": false,
+  "text": "Kysymys: Oliko kyse ajoneuvosta, joka vajosi jään läpi muulla kuin hyväksytyllä talvitiellä?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": null,
+  "text": "Vajosiko ajoneuvo jään läpi hyväksytyn talvitien ulkopuolella? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": null,
+  "text": "Kysymys: Vajosiko ajoneuvo jään läpi hyväksytyn talvitien ulkopuolella?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": null,
+  "text": "Putosiko ajoneuvo jään läpi muualla kuin hyväksytyllä talvitiellä? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": null,
+  "text": "Kysymys: Putosiko ajoneuvo jään läpi muualla kuin hyväksytyllä talvitiellä?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": null,
+  "text": "Upposiko ajoneuvo jäihin hyväksytyn talvitien ulkopuolella? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": null,
+  "text": "Kysymys: Upposiko ajoneuvo jäihin hyväksytyn talvitien ulkopuolella?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": null,
+  "text": "Oliko kyse ajoneuvosta, joka vajosi jään läpi muulla kuin hyväksytyllä talvitiellä? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad",
+  "gold": null,
+  "text": "Kysymys: Oliko kyse ajoneuvosta, joka vajosi jään läpi muulla kuin hyväksytyllä talvitiellä?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": true,
+  "text": "Aiheutuiko vahinko ajoneuvon tai yhdistelmän kuormasta? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": true,
+  "text": "Kysymys: Aiheutuiko vahinko ajoneuvon tai yhdistelmän kuormasta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": true,
+  "text": "Johtuiko vahinko ajoneuvon tai ajoneuvoyhdistelmän kuljettamasta kuormasta? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": true,
+  "text": "Kysymys: Johtuiko vahinko ajoneuvon tai ajoneuvoyhdistelmän kuljettamasta kuormasta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": true,
+  "text": "Oliko vahingon aiheuttaja ajoneuvon tai yhdistelmän kuorma? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": true,
+  "text": "Kysymys: Oliko vahingon aiheuttaja ajoneuvon tai yhdistelmän kuorma?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": true,
+  "text": "Syntyikö vahinko kuorman vuoksi? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": true,
+  "text": "Kysymys: Syntyikö vahinko kuorman vuoksi?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": false,
+  "text": "Aiheutuiko vahinko ajoneuvon tai yhdistelmän kuormasta? Vastaus: Ei."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": false,
+  "text": "Kysymys: Aiheutuiko vahinko ajoneuvon tai yhdistelmän kuormasta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": false,
+  "text": "Johtuiko vahinko ajoneuvon tai ajoneuvoyhdistelmän kuljettamasta kuormasta? Vastaus: Ei."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": false,
+  "text": "Kysymys: Johtuiko vahinko ajoneuvon tai ajoneuvoyhdistelmän kuljettamasta kuormasta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": false,
+  "text": "Oliko vahingon aiheuttaja ajoneuvon tai yhdistelmän kuorma? Vastaus: Ei."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": false,
+  "text": "Kysymys: Oliko vahingon aiheuttaja ajoneuvon tai yhdistelmän kuorma?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": false,
+  "text": "Syntyikö vahinko kuorman vuoksi? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": false,
+  "text": "Kysymys: Syntyikö vahinko kuorman vuoksi?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": null,
+  "text": "Aiheutuiko vahinko ajoneuvon tai yhdistelmän kuormasta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": null,
+  "text": "Kysymys: Aiheutuiko vahinko ajoneuvon tai yhdistelmän kuormasta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": null,
+  "text": "Johtuiko vahinko ajoneuvon tai ajoneuvoyhdistelmän kuljettamasta kuormasta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": null,
+  "text": "Kysymys: Johtuiko vahinko ajoneuvon tai ajoneuvoyhdistelmän kuljettamasta kuormasta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": null,
+  "text": "Oliko vahingon aiheuttaja ajoneuvon tai yhdistelmän kuorma? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": null,
+  "text": "Kysymys: Oliko vahingon aiheuttaja ajoneuvon tai yhdistelmän kuorma?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": null,
+  "text": "Syntyikö vahinko kuorman vuoksi? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageCausedByVehicleOrCombinationLoad",
+  "gold": null,
+  "text": "Kysymys: Syntyikö vahinko kuorman vuoksi?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": true,
+  "text": "Aiheuttiko ajoneuvossa ollut eläin vahingon? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": true,
+  "text": "Kysymys: Aiheuttiko ajoneuvossa ollut eläin vahingon?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": true,
+  "text": "Johtuiko vahinko ajoneuvon sisällä olleesta eläimestä? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": true,
+  "text": "Kysymys: Johtuiko vahinko ajoneuvon sisällä olleesta eläimestä?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": true,
+  "text": "Oliko vahingon aiheuttajana ajoneuvossa matkustanut eläin? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": true,
+  "text": "Kysymys: Oliko vahingon aiheuttajana ajoneuvossa matkustanut eläin?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": true,
+  "text": "Syntyikö vahinko siitä, että ajoneuvossa oli eläin? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": true,
+  "text": "Kysymys: Syntyikö vahinko siitä, että ajoneuvossa oli eläin?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": false,
+  "text": "Aiheuttiko ajoneuvossa ollut eläin vahingon? Vastaus: Ei."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": false,
+  "text": "Kysymys: Aiheuttiko ajoneuvossa ollut eläin vahingon?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": false,
+  "text": "Johtuiko vahinko ajoneuvon sisällä olleesta eläimestä? Vastaus: Ei."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": false,
+  "text": "Kysymys: Johtuiko vahinko ajoneuvon sisällä olleesta eläimestä?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": false,
+  "text": "Oliko vahingon aiheuttajana ajoneuvossa matkustanut eläin? Vastaus: Ei."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": false,
+  "text": "Kysymys: Oliko vahingon aiheuttajana ajoneuvossa matkustanut eläin?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": false,
+  "text": "Syntyikö vahinko siitä, että ajoneuvossa oli eläin? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": false,
+  "text": "Kysymys: Syntyikö vahinko siitä, että ajoneuvossa oli eläin?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": null,
+  "text": "Aiheuttiko ajoneuvossa ollut eläin vahingon? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": null,
+  "text": "Kysymys: Aiheuttiko ajoneuvossa ollut eläin vahingon?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": null,
+  "text": "Johtuiko vahinko ajoneuvon sisällä olleesta eläimestä? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": null,
+  "text": "Kysymys: Johtuiko vahinko ajoneuvon sisällä olleesta eläimestä?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": null,
+  "text": "Oliko vahingon aiheuttajana ajoneuvossa matkustanut eläin? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": null,
+  "text": "Kysymys: Oliko vahingon aiheuttajana ajoneuvossa matkustanut eläin?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": null,
+  "text": "Syntyikö vahinko siitä, että ajoneuvossa oli eläin? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageCausedByAnimalInVehicle",
+  "gold": null,
+  "text": "Kysymys: Syntyikö vahinko siitä, että ajoneuvossa oli eläin?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": true,
+  "text": "Vaurioittiko ajoneuvon oma osa tai laite ajoneuvoa? Vastaus: Kyllä."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": true,
+  "text": "Kysymys: Vaurioittiko ajoneuvon oma osa tai laite ajoneuvoa?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": true,
+  "text": "Aiheutuiko vahinko ajoneuvon omasta osasta tai laitteesta? Vastaus: Kyllä."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": true,
+  "text": "Kysymys: Aiheutuiko vahinko ajoneuvon omasta osasta tai laitteesta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": true,
+  "text": "Johtuiko vahinko siitä, että ajoneuvon oma osa tai laite vaurioitti ajoneuvoa? Vastaus: Kyllä."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": true,
+  "text": "Kysymys: Johtuiko vahinko siitä, että ajoneuvon oma osa tai laite vaurioitti ajoneuvoa?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": true,
+  "text": "Oliko vahingon aiheuttaja ajoneuvon oma osa tai laite? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": true,
+  "text": "Kysymys: Oliko vahingon aiheuttaja ajoneuvon oma osa tai laite?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": false,
+  "text": "Vaurioittiko ajoneuvon oma osa tai laite ajoneuvoa? Vastaus: Ei."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": false,
+  "text": "Kysymys: Vaurioittiko ajoneuvon oma osa tai laite ajoneuvoa?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": false,
+  "text": "Aiheutuiko vahinko ajoneuvon omasta osasta tai laitteesta? Vastaus: Ei."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": false,
+  "text": "Kysymys: Aiheutuiko vahinko ajoneuvon omasta osasta tai laitteesta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": false,
+  "text": "Johtuiko vahinko siitä, että ajoneuvon oma osa tai laite vaurioitti ajoneuvoa? Vastaus: Ei."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": false,
+  "text": "Kysymys: Johtuiko vahinko siitä, että ajoneuvon oma osa tai laite vaurioitti ajoneuvoa?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": false,
+  "text": "Oliko vahingon aiheuttaja ajoneuvon oma osa tai laite? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": false,
+  "text": "Kysymys: Oliko vahingon aiheuttaja ajoneuvon oma osa tai laite?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": null,
+  "text": "Vaurioittiko ajoneuvon oma osa tai laite ajoneuvoa? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": null,
+  "text": "Kysymys: Vaurioittiko ajoneuvon oma osa tai laite ajoneuvoa?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": null,
+  "text": "Aiheutuiko vahinko ajoneuvon omasta osasta tai laitteesta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": null,
+  "text": "Kysymys: Aiheutuiko vahinko ajoneuvon omasta osasta tai laitteesta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": null,
+  "text": "Johtuiko vahinko siitä, että ajoneuvon oma osa tai laite vaurioitti ajoneuvoa? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": null,
+  "text": "Kysymys: Johtuiko vahinko siitä, että ajoneuvon oma osa tai laite vaurioitti ajoneuvoa?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": null,
+  "text": "Oliko vahingon aiheuttaja ajoneuvon oma osa tai laite? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "vehicleDamagedByItsOwnPartOrDevice",
+  "gold": null,
+  "text": "Kysymys: Oliko vahingon aiheuttaja ajoneuvon oma osa tai laite?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": true,
+  "text": "Oliko ajoneuvo kilpailu-, harjoitus- tai ratakäytössä? Vastaus: Kyllä."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": true,
+  "text": "Kysymys: Oliko ajoneuvo kilpailu-, harjoitus- tai ratakäytössä?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": true,
+  "text": "Käytettiinkö ajoneuvoa kilpailussa, harjoituksessa tai radalla vahinkohetkellä? Vastaus: Kyllä."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": true,
+  "text": "Kysymys: Käytettiinkö ajoneuvoa kilpailussa, harjoituksessa tai radalla vahinkohetkellä?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": true,
+  "text": "Sattuiko vahinko kilpailun, harjoituksen tai ratakäytön aikana? Vastaus: Kyllä."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": true,
+  "text": "Kysymys: Sattuiko vahinko kilpailun, harjoituksen tai ratakäytön aikana?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": true,
+  "text": "Oliko ajoneuvo vahinkohetkellä ratakäytössä, kilpailussa tai harjoittelussa? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": true,
+  "text": "Kysymys: Oliko ajoneuvo vahinkohetkellä ratakäytössä, kilpailussa tai harjoittelussa?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": false,
+  "text": "Oliko ajoneuvo kilpailu-, harjoitus- tai ratakäytössä? Vastaus: Ei."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": false,
+  "text": "Kysymys: Oliko ajoneuvo kilpailu-, harjoitus- tai ratakäytössä?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": false,
+  "text": "Käytettiinkö ajoneuvoa kilpailussa, harjoituksessa tai radalla vahinkohetkellä? Vastaus: Ei."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": false,
+  "text": "Kysymys: Käytettiinkö ajoneuvoa kilpailussa, harjoituksessa tai radalla vahinkohetkellä?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": false,
+  "text": "Sattuiko vahinko kilpailun, harjoituksen tai ratakäytön aikana? Vastaus: Ei."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": false,
+  "text": "Kysymys: Sattuiko vahinko kilpailun, harjoituksen tai ratakäytön aikana?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": false,
+  "text": "Oliko ajoneuvo vahinkohetkellä ratakäytössä, kilpailussa tai harjoittelussa? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": false,
+  "text": "Kysymys: Oliko ajoneuvo vahinkohetkellä ratakäytössä, kilpailussa tai harjoittelussa?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": null,
+  "text": "Oliko ajoneuvo kilpailu-, harjoitus- tai ratakäytössä? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": null,
+  "text": "Kysymys: Oliko ajoneuvo kilpailu-, harjoitus- tai ratakäytössä?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": null,
+  "text": "Käytettiinkö ajoneuvoa kilpailussa, harjoituksessa tai radalla vahinkohetkellä? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": null,
+  "text": "Kysymys: Käytettiinkö ajoneuvoa kilpailussa, harjoituksessa tai radalla vahinkohetkellä?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": null,
+  "text": "Sattuiko vahinko kilpailun, harjoituksen tai ratakäytön aikana? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": null,
+  "text": "Kysymys: Sattuiko vahinko kilpailun, harjoituksen tai ratakäytön aikana?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": null,
+  "text": "Oliko ajoneuvo vahinkohetkellä ratakäytössä, kilpailussa tai harjoittelussa? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "competitionPracticeOrTrackUse",
+  "gold": null,
+  "text": "Kysymys: Oliko ajoneuvo vahinkohetkellä ratakäytössä, kilpailussa tai harjoittelussa?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": true,
+  "text": "Tapahtuiko vahinko tahallisen teon tai rikoksen aikana, jälkeen tai sen vuoksi? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": true,
+  "text": "Kysymys: Tapahtuiko vahinko tahallisen teon tai rikoksen aikana, jälkeen tai sen vuoksi?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": true,
+  "text": "Liittyikö vahinko tahalliseen tekoon tai rikokseen? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": true,
+  "text": "Kysymys: Liittyikö vahinko tahalliseen tekoon tai rikokseen?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": true,
+  "text": "Sattuiko vahinko tahallisen teon tai rikoksen yhteydessä? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": true,
+  "text": "Kysymys: Sattuiko vahinko tahallisen teon tai rikoksen yhteydessä?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": true,
+  "text": "Oliko vahingon taustalla tahallinen teko tai rikos? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": true,
+  "text": "Kysymys: Oliko vahingon taustalla tahallinen teko tai rikos?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": false,
+  "text": "Tapahtuiko vahinko tahallisen teon tai rikoksen aikana, jälkeen tai sen vuoksi? Vastaus: Ei."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": false,
+  "text": "Kysymys: Tapahtuiko vahinko tahallisen teon tai rikoksen aikana, jälkeen tai sen vuoksi?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": false,
+  "text": "Liittyikö vahinko tahalliseen tekoon tai rikokseen? Vastaus: Ei."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": false,
+  "text": "Kysymys: Liittyikö vahinko tahalliseen tekoon tai rikokseen?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": false,
+  "text": "Sattuiko vahinko tahallisen teon tai rikoksen yhteydessä? Vastaus: Ei."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": false,
+  "text": "Kysymys: Sattuiko vahinko tahallisen teon tai rikoksen yhteydessä?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": false,
+  "text": "Oliko vahingon taustalla tahallinen teko tai rikos? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": false,
+  "text": "Kysymys: Oliko vahingon taustalla tahallinen teko tai rikos?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": null,
+  "text": "Tapahtuiko vahinko tahallisen teon tai rikoksen aikana, jälkeen tai sen vuoksi? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": null,
+  "text": "Kysymys: Tapahtuiko vahinko tahallisen teon tai rikoksen aikana, jälkeen tai sen vuoksi?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": null,
+  "text": "Liittyikö vahinko tahalliseen tekoon tai rikokseen? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": null,
+  "text": "Kysymys: Liittyikö vahinko tahalliseen tekoon tai rikokseen?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": null,
+  "text": "Sattuiko vahinko tahallisen teon tai rikoksen yhteydessä? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": null,
+  "text": "Kysymys: Sattuiko vahinko tahallisen teon tai rikoksen yhteydessä?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": null,
+  "text": "Oliko vahingon taustalla tahallinen teko tai rikos? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime",
+  "gold": null,
+  "text": "Kysymys: Oliko vahingon taustalla tahallinen teko tai rikos?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "nuclearDamagePresent|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": true,
+  "text": "Onko kyseessä ydinvahinko? Vastaus: Kyllä."
+ },
+ {
+  "id": "nuclearDamagePresent|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": true,
+  "text": "Kysymys: Onko kyseessä ydinvahinko?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "nuclearDamagePresent|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": true,
+  "text": "Johtuiko vahinko ydinenergiasta tai ydinaineista? Vastaus: Kyllä."
+ },
+ {
+  "id": "nuclearDamagePresent|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": true,
+  "text": "Kysymys: Johtuiko vahinko ydinenergiasta tai ydinaineista?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "nuclearDamagePresent|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": true,
+  "text": "Onko vahinko aiheutunut ydinvahingosta? Vastaus: Kyllä."
+ },
+ {
+  "id": "nuclearDamagePresent|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": true,
+  "text": "Kysymys: Onko vahinko aiheutunut ydinvahingosta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "nuclearDamagePresent|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "nuclearDamagePresent",
+  "gold": true,
+  "text": "Oliko vahinko ydinvahinko? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "nuclearDamagePresent|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "nuclearDamagePresent",
+  "gold": true,
+  "text": "Kysymys: Oliko vahinko ydinvahinko?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "nuclearDamagePresent|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": false,
+  "text": "Onko kyseessä ydinvahinko? Vastaus: Ei."
+ },
+ {
+  "id": "nuclearDamagePresent|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": false,
+  "text": "Kysymys: Onko kyseessä ydinvahinko?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "nuclearDamagePresent|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": false,
+  "text": "Johtuiko vahinko ydinenergiasta tai ydinaineista? Vastaus: Ei."
+ },
+ {
+  "id": "nuclearDamagePresent|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": false,
+  "text": "Kysymys: Johtuiko vahinko ydinenergiasta tai ydinaineista?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "nuclearDamagePresent|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": false,
+  "text": "Onko vahinko aiheutunut ydinvahingosta? Vastaus: Ei."
+ },
+ {
+  "id": "nuclearDamagePresent|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": false,
+  "text": "Kysymys: Onko vahinko aiheutunut ydinvahingosta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "nuclearDamagePresent|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "nuclearDamagePresent",
+  "gold": false,
+  "text": "Oliko vahinko ydinvahinko? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "nuclearDamagePresent|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "nuclearDamagePresent",
+  "gold": false,
+  "text": "Kysymys: Oliko vahinko ydinvahinko?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "nuclearDamagePresent|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": null,
+  "text": "Onko kyseessä ydinvahinko? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "nuclearDamagePresent|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": null,
+  "text": "Kysymys: Onko kyseessä ydinvahinko?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "nuclearDamagePresent|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": null,
+  "text": "Johtuiko vahinko ydinenergiasta tai ydinaineista? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "nuclearDamagePresent|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": null,
+  "text": "Kysymys: Johtuiko vahinko ydinenergiasta tai ydinaineista?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "nuclearDamagePresent|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": null,
+  "text": "Onko vahinko aiheutunut ydinvahingosta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "nuclearDamagePresent|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "nuclearDamagePresent",
+  "gold": null,
+  "text": "Kysymys: Onko vahinko aiheutunut ydinvahingosta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "nuclearDamagePresent|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "nuclearDamagePresent",
+  "gold": null,
+  "text": "Oliko vahinko ydinvahinko? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "nuclearDamagePresent|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "nuclearDamagePresent",
+  "gold": null,
+  "text": "Kysymys: Oliko vahinko ydinvahinko?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": true,
+  "text": "Aiheutuiko vahinko kyberhyökkäyksestä? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": true,
+  "text": "Kysymys: Aiheutuiko vahinko kyberhyökkäyksestä?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": true,
+  "text": "Johtuiko vahinko kyberiskusta? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": true,
+  "text": "Kysymys: Johtuiko vahinko kyberiskusta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": true,
+  "text": "Oliko vahingon syynä kyberhyökkäys? Vastaus: Kyllä."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": true,
+  "text": "Kysymys: Oliko vahingon syynä kyberhyökkäys?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": true,
+  "text": "Syntyikö vahinko tietoverkkoon kohdistuneen hyökkäyksen seurauksena? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": true,
+  "text": "Kysymys: Syntyikö vahinko tietoverkkoon kohdistuneen hyökkäyksen seurauksena?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": false,
+  "text": "Aiheutuiko vahinko kyberhyökkäyksestä? Vastaus: Ei."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": false,
+  "text": "Kysymys: Aiheutuiko vahinko kyberhyökkäyksestä?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": false,
+  "text": "Johtuiko vahinko kyberiskusta? Vastaus: Ei."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": false,
+  "text": "Kysymys: Johtuiko vahinko kyberiskusta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": false,
+  "text": "Oliko vahingon syynä kyberhyökkäys? Vastaus: Ei."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": false,
+  "text": "Kysymys: Oliko vahingon syynä kyberhyökkäys?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": false,
+  "text": "Syntyikö vahinko tietoverkkoon kohdistuneen hyökkäyksen seurauksena? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": false,
+  "text": "Kysymys: Syntyikö vahinko tietoverkkoon kohdistuneen hyökkäyksen seurauksena?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": null,
+  "text": "Aiheutuiko vahinko kyberhyökkäyksestä? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": null,
+  "text": "Kysymys: Aiheutuiko vahinko kyberhyökkäyksestä?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": null,
+  "text": "Johtuiko vahinko kyberiskusta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": null,
+  "text": "Kysymys: Johtuiko vahinko kyberiskusta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": null,
+  "text": "Oliko vahingon syynä kyberhyökkäys? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": null,
+  "text": "Kysymys: Oliko vahingon syynä kyberhyökkäys?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": null,
+  "text": "Syntyikö vahinko tietoverkkoon kohdistuneen hyökkäyksen seurauksena? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "damageCausedByListedCyberEvent",
+  "gold": null,
+  "text": "Kysymys: Syntyikö vahinko tietoverkkoon kohdistuneen hyökkäyksen seurauksena?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": true,
+  "text": "Onko vahinko vahvistettu yhdeksi vahinkokohteeksi? Vastaus: Kyllä."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": true,
+  "text": "Kysymys: Onko vahinko vahvistettu yhdeksi vahinkokohteeksi?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": true,
+  "text": "Onko vahinkokohde vahvistettu yhdeksi kohteeksi? Vastaus: Kyllä."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": true,
+  "text": "Kysymys: Onko vahinkokohde vahvistettu yhdeksi kohteeksi?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": true,
+  "text": "Vahvistettiinko, että kyse on yhdestä vahinkokohteesta? Vastaus: Kyllä."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": true,
+  "text": "Kysymys: Vahvistettiinko, että kyse on yhdestä vahinkokohteesta?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": true,
+  "text": "Onko varmistettu, että vahinko koskee vain yhtä kohdetta? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": true,
+  "text": "Kysymys: Onko varmistettu, että vahinko koskee vain yhtä kohdetta?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": false,
+  "text": "Onko vahinko vahvistettu yhdeksi vahinkokohteeksi? Vastaus: Ei."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": false,
+  "text": "Kysymys: Onko vahinko vahvistettu yhdeksi vahinkokohteeksi?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": false,
+  "text": "Onko vahinkokohde vahvistettu yhdeksi kohteeksi? Vastaus: Ei."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": false,
+  "text": "Kysymys: Onko vahinkokohde vahvistettu yhdeksi kohteeksi?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": false,
+  "text": "Vahvistettiinko, että kyse on yhdestä vahinkokohteesta? Vastaus: Ei."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": false,
+  "text": "Kysymys: Vahvistettiinko, että kyse on yhdestä vahinkokohteesta?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": false,
+  "text": "Onko varmistettu, että vahinko koskee vain yhtä kohdetta? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": false,
+  "text": "Kysymys: Onko varmistettu, että vahinko koskee vain yhtä kohdetta?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": null,
+  "text": "Onko vahinko vahvistettu yhdeksi vahinkokohteeksi? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": null,
+  "text": "Kysymys: Onko vahinko vahvistettu yhdeksi vahinkokohteeksi?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": null,
+  "text": "Onko vahinkokohde vahvistettu yhdeksi kohteeksi? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": null,
+  "text": "Kysymys: Onko vahinkokohde vahvistettu yhdeksi kohteeksi?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": null,
+  "text": "Vahvistettiinko, että kyse on yhdestä vahinkokohteesta? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": null,
+  "text": "Kysymys: Vahvistettiinko, että kyse on yhdestä vahinkokohteesta?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": null,
+  "text": "Onko varmistettu, että vahinko koskee vain yhtä kohdetta? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "singleDamageItemScopeConfirmed",
+  "gold": null,
+  "text": "Kysymys: Onko varmistettu, että vahinko koskee vain yhtä kohdetta?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": true,
+  "text": "Vajosiko ajoneuvo suohon? Vastaus: Kyllä."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": true,
+  "text": "Kysymys: Vajosiko ajoneuvo suohon?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": true,
+  "text": "Upposiko ajoneuvo suohon? Vastaus: Kyllä."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": true,
+  "text": "Kysymys: Upposiko ajoneuvo suohon?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": true,
+  "text": "Ajautuiko ajoneuvo suohon niin, että se vajosi? Vastaus: Kyllä."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": true,
+  "text": "Kysymys: Ajautuiko ajoneuvo suohon niin, että se vajosi?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": true,
+  "text": "Vajosiko ajoneuvo suomaastossa? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": true,
+  "text": "Kysymys: Vajosiko ajoneuvo suomaastossa?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": false,
+  "text": "Vajosiko ajoneuvo suohon? Vastaus: Ei."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": false,
+  "text": "Kysymys: Vajosiko ajoneuvo suohon?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": false,
+  "text": "Upposiko ajoneuvo suohon? Vastaus: Ei."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": false,
+  "text": "Kysymys: Upposiko ajoneuvo suohon?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": false,
+  "text": "Ajautuiko ajoneuvo suohon niin, että se vajosi? Vastaus: Ei."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": false,
+  "text": "Kysymys: Ajautuiko ajoneuvo suohon niin, että se vajosi?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": false,
+  "text": "Vajosiko ajoneuvo suomaastossa? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": false,
+  "text": "Kysymys: Vajosiko ajoneuvo suomaastossa?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": null,
+  "text": "Vajosiko ajoneuvo suohon? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": null,
+  "text": "Kysymys: Vajosiko ajoneuvo suohon?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": null,
+  "text": "Upposiko ajoneuvo suohon? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": null,
+  "text": "Kysymys: Upposiko ajoneuvo suohon?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": null,
+  "text": "Ajautuiko ajoneuvo suohon niin, että se vajosi? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": null,
+  "text": "Kysymys: Ajautuiko ajoneuvo suohon niin, että se vajosi?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": null,
+  "text": "Vajosiko ajoneuvo suomaastossa? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "ajoneuvoVajosiSuohon",
+  "gold": null,
+  "text": "Kysymys: Vajosiko ajoneuvo suomaastossa?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": true,
+  "text": "Osuiko ajoneuvo yläpuoliseen esteeseen? Vastaus: Kyllä."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": true,
+  "text": "Kysymys: Osuiko ajoneuvo yläpuoliseen esteeseen?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": true,
+  "text": "Törmäsikö ajoneuvo ylhäällä olleeseen esteeseen? Vastaus: Kyllä."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": true,
+  "text": "Kysymys: Törmäsikö ajoneuvo ylhäällä olleeseen esteeseen?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": true,
+  "text": "Osuiko ajoneuvo esteeseen, joka oli sen yläpuolella? Vastaus: Kyllä."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": true,
+  "text": "Kysymys: Osuiko ajoneuvo esteeseen, joka oli sen yläpuolella?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": true,
+  "text": "Oliko vahinko seurausta osumasta yläpuoliseen esteeseen? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": true,
+  "text": "Kysymys: Oliko vahinko seurausta osumasta yläpuoliseen esteeseen?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": false,
+  "text": "Osuiko ajoneuvo yläpuoliseen esteeseen? Vastaus: Ei."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": false,
+  "text": "Kysymys: Osuiko ajoneuvo yläpuoliseen esteeseen?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": false,
+  "text": "Törmäsikö ajoneuvo ylhäällä olleeseen esteeseen? Vastaus: Ei."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": false,
+  "text": "Kysymys: Törmäsikö ajoneuvo ylhäällä olleeseen esteeseen?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": false,
+  "text": "Osuiko ajoneuvo esteeseen, joka oli sen yläpuolella? Vastaus: Ei."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": false,
+  "text": "Kysymys: Osuiko ajoneuvo esteeseen, joka oli sen yläpuolella?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": false,
+  "text": "Oliko vahinko seurausta osumasta yläpuoliseen esteeseen? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": false,
+  "text": "Kysymys: Oliko vahinko seurausta osumasta yläpuoliseen esteeseen?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": null,
+  "text": "Osuiko ajoneuvo yläpuoliseen esteeseen? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": null,
+  "text": "Kysymys: Osuiko ajoneuvo yläpuoliseen esteeseen?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": null,
+  "text": "Törmäsikö ajoneuvo ylhäällä olleeseen esteeseen? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": null,
+  "text": "Kysymys: Törmäsikö ajoneuvo ylhäällä olleeseen esteeseen?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": null,
+  "text": "Osuiko ajoneuvo esteeseen, joka oli sen yläpuolella? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": null,
+  "text": "Kysymys: Osuiko ajoneuvo esteeseen, joka oli sen yläpuolella?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": null,
+  "text": "Oliko vahinko seurausta osumasta yläpuoliseen esteeseen? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "osumaYlapuoliseenEsteeseen",
+  "gold": null,
+  "text": "Kysymys: Oliko vahinko seurausta osumasta yläpuoliseen esteeseen?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|true|dev|p0w0a0",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": true,
+  "text": "Oliko yläpuolisen esteen osumaan kuljetuspoikkeus? Vastaus: Kyllä."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|true|dev|p0w1a1",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": true,
+  "text": "Kysymys: Oliko yläpuolisen esteen osumaan kuljetuspoikkeus?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|true|dev|p1w0a0",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": true,
+  "text": "Liittyikö yläpuoliseen esteeseen osumiseen kuljetuspoikkeus? Vastaus: Kyllä."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|true|dev|p1w1a1",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": true,
+  "text": "Kysymys: Liittyikö yläpuoliseen esteeseen osumiseen kuljetuspoikkeus?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|true|dev|p2w0a0",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": true,
+  "text": "Oliko yläpuolisen esteen osuman taustalla kuljetuspoikkeus? Vastaus: Kyllä."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|true|dev|p2w1a1",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": true,
+  "text": "Kysymys: Oliko yläpuolisen esteen osuman taustalla kuljetuspoikkeus?\nVastaus: Kyllä, näin on."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|true|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": true,
+  "text": "Koskiko yläpuolisen esteen osumaa kuljetuspoikkeus? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|true|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": true,
+  "text": "Kysymys: Koskiko yläpuolisen esteen osumaa kuljetuspoikkeus?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|false|dev|p0w0a0",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": false,
+  "text": "Oliko yläpuolisen esteen osumaan kuljetuspoikkeus? Vastaus: Ei."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|false|dev|p0w1a1",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": false,
+  "text": "Kysymys: Oliko yläpuolisen esteen osumaan kuljetuspoikkeus?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|false|dev|p1w0a0",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": false,
+  "text": "Liittyikö yläpuoliseen esteeseen osumiseen kuljetuspoikkeus? Vastaus: Ei."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|false|dev|p1w1a1",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": false,
+  "text": "Kysymys: Liittyikö yläpuoliseen esteeseen osumiseen kuljetuspoikkeus?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|false|dev|p2w0a0",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": false,
+  "text": "Oliko yläpuolisen esteen osuman taustalla kuljetuspoikkeus? Vastaus: Ei."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|false|dev|p2w1a1",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": false,
+  "text": "Kysymys: Oliko yläpuolisen esteen osuman taustalla kuljetuspoikkeus?\nVastaus: Ei, ei näin."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|false|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": false,
+  "text": "Koskiko yläpuolisen esteen osumaa kuljetuspoikkeus? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|false|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": false,
+  "text": "Kysymys: Koskiko yläpuolisen esteen osumaa kuljetuspoikkeus?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|null|dev|p0w0a0",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": null,
+  "text": "Oliko yläpuolisen esteen osumaan kuljetuspoikkeus? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|null|dev|p0w1a1",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": null,
+  "text": "Kysymys: Oliko yläpuolisen esteen osumaan kuljetuspoikkeus?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|null|dev|p1w0a0",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": null,
+  "text": "Liittyikö yläpuoliseen esteeseen osumiseen kuljetuspoikkeus? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|null|dev|p1w1a1",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": null,
+  "text": "Kysymys: Liittyikö yläpuoliseen esteeseen osumiseen kuljetuspoikkeus?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|null|dev|p2w0a0",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": null,
+  "text": "Oliko yläpuolisen esteen osuman taustalla kuljetuspoikkeus? Vastaus: Ei tiedossa."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|null|dev|p2w1a1",
+  "split": "dev",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": null,
+  "text": "Kysymys: Oliko yläpuolisen esteen osuman taustalla kuljetuspoikkeus?\nVastaus: En osaa sanoa."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|null|holdout|p3w2a2",
+  "split": "holdout",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": null,
+  "text": "Koskiko yläpuolisen esteen osumaa kuljetuspoikkeus? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|null|holdout|p3w1a2",
+  "split": "holdout",
+  "field": "ylapuolisenEsteenKuljetuspoikkeus",
+  "gold": null,
+  "text": "Kysymys: Koskiko yläpuolisen esteen osumaa kuljetuspoikkeus?\nVastaus: Tietoa ei ole saatavilla."
+ }
+]
