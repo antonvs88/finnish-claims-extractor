@@ -1,0 +1,43 @@
+{
+  "verified_utc": "2026-09-30T04:16:08.388637+00:00",
+  "repository": "antonvs88/finnish-claims-extractor",
+  "release_id": 399706009,
+  "assets": [
+    {
+      "name": "models-boolean-base.tar.gz",
+      "bytes": 740470047,
+      "sha256": "c02c1d6eafae6c2394fe8d77302b88975b1136ca98939ac02915e4a2fac3947c"
+    },
+    {
+      "name": "models-boolean-new.tar.gz",
+      "bytes": 809328971,
+      "sha256": "2f3ea184012ab8a1cbf19ba9218cfe34512dfc74724f175df8c66548b55955ca"
+    },
+    {
+      "name": "models-enums.tar.gz",
+      "bytes": 814245052,
+      "sha256": "26e7fb0cfb1197fd96d06df2b937375ad52a9786f56f63e3aa7f5a10d5585905"
+    },
+    {
+      "name": "models-event.tar.gz",
+      "bytes": 809331346,
+      "sha256": "9d0b0746639649d27a3d0aeda5710b1ead5f2a953c746486513662848d525461"
+    },
+    {
+      "name": "models-modernbert-base.tar.gz",
+      "bytes": 534702383,
+      "sha256": "636d188e7e8e3dddd8915f604703c749f7ea15b5dae4599c5a65d247007a81cc"
+    },
+    {
+      "name": "models-values.tar.gz",
+      "bytes": 532286314,
+      "sha256": "c5a91b0a0ac93c94d92c77297196d4cc73b615f871fb1d9e1503171f99ed3b23"
+    },
+    {
+      "name": "release-sha256.txt",
+      "bytes": 540,
+      "sha256": "0a842be78265daa65a85c8b7febbf802bccd0277e9fc5f400b6e1aac5dd6aec6"
+    }
+  ],
+  "verification": "GitHub asset state, byte size and server SHA-256 digest match local archive checksums"
+}
