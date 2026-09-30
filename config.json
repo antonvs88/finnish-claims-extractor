@@ -1,0 +1,64 @@
+{
+  "amount": {
+    "checkpoint": "models/values/best.pt",
+    "threshold": 0.2,
+    "architecture": "local_pool_residual"
+  },
+  "boolean": {
+    "kind": "ensemble",
+    "base_checkpoint": "models/boolean-base",
+    "checkpoint": "models/boolean-new",
+    "weight": 0.75,
+    "method": "geometric",
+    "factor": 1024
+  },
+  "selection_scope": "Locked 2026-09-30 research candidate; not production validated",
+  "selection_sources": {
+    "amount": "d3d1a068ded8940c765c017988e252a97a0da838db06c6bcacf2614aa8fc73a9",
+    "boolean": "ee4b3b19900c9cba9036ad60ef2900d4d5e1f12d47aa18cf4a2b6d3bf2b66d66",
+    "event": "4f8688fd4a20c3f4f96c320591a7788fd7886903f0317ace9ca5260a54c042b2",
+    "enum_aggregation": "2f3e6cdec8361c769a4471623e47322062472b9cecae478f09b2992e3c4f2a12",
+    "field_calibration": "c1548b884cd356895845e1831dfecb59c839d16a3ad307e3364fe4c9520c7fd6"
+  },
+  "event": {
+    "kind": "single",
+    "checkpoint": "models/event",
+    "factor": 1024,
+    "margin": 0
+  },
+  "enum_aggregation": {
+    "mode": "strongest_chunk",
+    "factor": 256,
+    "margin": 0.05
+  },
+  "other_enum": {
+    "checkpoint": "models/enums"
+  },
+  "enum_field_calibration": {
+    "korvaustapa": {
+      "factor": 1024,
+      "margin": 0
+    },
+    "kustannuksenAlvKasittely": {
+      "factor": 64,
+      "margin": 0
+    },
+    "lisaomavastuunAjoneuvoluokka": {
+      "factor": 256,
+      "margin": 0.05
+    },
+    "lunastusarvonPeruste": {
+      "factor": 256,
+      "margin": 0.05
+    },
+    "muunVeronTaiMaksunKasittely": {
+      "factor": 1024,
+      "margin": 0
+    }
+  },
+  "geography": {
+    "factor": 64,
+    "threshold": 0.95
+  },
+  "v4_enum_null_factor": 0.25
+}

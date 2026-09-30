@@ -1,0 +1,215 @@
+{
+  "policyInForce": {
+    "type": "boolean",
+    "values": null
+  },
+  "damageCause": {
+    "type": "enum",
+    "values": {
+      "yhteentormays": "Yhteentörmäys",
+      "tielta_suistuminen": "Tieltä suistuminen",
+      "kaatuminen": "Kaatuminen",
+      "muu_akillinen_ulkoinen_tapahtuma": "Muu äkillinen ja ennalta arvaamaton ulkoinen tapahtuma",
+      "vaurio_kuljetettaessa": "Vaurio kuljetettaessa toisella kulkuneuvolla",
+      "vika_kuluminen_tai_kunnossapito": "Rakenne-, valmistus- tai ainevika, kuluminen tai puutteellinen kunnossapito",
+      "vesi_tiella_tai_sisalla": "Vesi tiellä tai veden/lumen pääsy sisään",
+      "varomaton_kasittely": "Ajoneuvon varomaton tai ohjeiden vastainen käsittely",
+      "kilpailu_tai_harjoittelu": "Kilpailu, sen harjoittelu, ajoharjoittelu tai rata-ajo",
+      "vahingonteko_palo_tai_omaisuusrikos": "Tahallinen vahingonteko, palo tai omaisuusrikos",
+      "kybertapahtuma": "Tietomurto, haittaohjelma tai muu kybertapahtuma",
+      "muu_syy": "Muu / epäselvä syy",
+      "oljyn_tai_jaahdytysnesteen_kierto": "Puutteellinen öljyn- tai jäähdytysnesteen kierto",
+      "veden_peittama_tie": "Veden peittämällä tiellä tai alueella ajaminen",
+      "veden_paasy_sisatilaan": "Veden, lumen tai rakeiden pääsy ajoneuvon sisätilaan",
+      "uppoaminen_jaihin": "Ajoneuvon uppoaminen jäihin",
+      "kuorma": "Ajoneuvon tai ajoneuvoyhdistelmän kuorma",
+      "ajoneuvossa_ollut_elain": "Ajoneuvossa ollut eläin",
+      "oma_osa_tai_laite": "Ajoneuvon oma osa tai laite",
+      "ydinvahinko": "Ydinvahinko"
+    }
+  },
+  "isTransportNegligence": {
+    "type": "boolean",
+    "values": null
+  },
+  "isLicenseOrSkillCourseTraining": {
+    "type": "boolean",
+    "values": null
+  },
+  "damageInNordicArea": {
+    "type": "boolean",
+    "values": null
+  },
+  "deductibleInPolicyEUR": {
+    "type": "number",
+    "values": null
+  },
+  "claimedAmountEUR": {
+    "type": "number",
+    "values": null
+  },
+  "vehiclePreLossFairValueEUR": {
+    "type": "number",
+    "values": null
+  },
+  "korvaustapa": {
+    "type": "enum",
+    "values": {
+      "korjaus_tai_hankinta": "Korjaus, osto, muu hankinta tai palvelu",
+      "lunastus": "Ajoneuvon lunastus"
+    }
+  },
+  "kustannuksenAlvKasittely": {
+    "type": "enum",
+    "values": {
+      "ei_vahennysoikeutta": "Vakuutetulla ei ole vähennys- tai palautusoikeutta ja vero on maksettava",
+      "vahennettavissa_tai_palautettavissa": "Vero on vähennettävissä tai palautettavissa",
+      "ei_maksuvelvollisuutta": "Vakuutettu ei ole velvollinen maksamaan veroa"
+    }
+  },
+  "vahennettavaAlvEur": {
+    "type": "number",
+    "values": null
+  },
+  "lunastusarvonPeruste": {
+    "type": "enum",
+    "values": {
+      "kaypa_arvo": "Käypä arvo (5.2.2.1)",
+      "uusarvoehto": "Uusarvoehto (5.2.2.2)",
+      "lunastusturva_uusarvolunastus": "Lunastusturvan mukainen uusarvolunastus (5.2.2.3.1)",
+      "lunastusturva_kaypa_arvo_korotus": "Lunastusturvan mukainen käyvän arvon korotus (5.2.2.3.2)",
+      "laajennettu_uusarvoehto": "Laajennettu uusarvoehto (5.2.2.4)"
+    }
+  },
+  "lunastusarvoEur": {
+    "type": "number",
+    "values": null
+  },
+  "uudenAjoneuvonKateismyyntihintaEur": {
+    "type": "number",
+    "values": null
+  },
+  "vahingonJalkeinenJaannosarvoEur": {
+    "type": "number",
+    "values": null
+  },
+  "myyntiOlisiOllutAlvVelvollinen": {
+    "type": "boolean",
+    "values": null
+  },
+  "lunastuksenAlvVastaavaMaaraEur": {
+    "type": "number",
+    "values": null
+  },
+  "muunVeronTaiMaksunKasittely": {
+    "type": "enum",
+    "values": {
+      "maksettava_ei_palautusta": "Vakuutettu on velvollinen maksamaan veron tai maksun eikä saa sitä hakemuksesta takaisin",
+      "ei_maksettava_tai_palautettava": "Vakuutettu ei ole velvollinen maksamaan veroa tai maksua tai voi saada sen hakemuksesta takaisin"
+    }
+  },
+  "vahennettavaMuuVeroTaiMaksuEur": {
+    "type": "number",
+    "values": null
+  },
+  "isDirectConsequenceOfCoveredEvent": {
+    "type": "boolean",
+    "values": null
+  },
+  "isLoadingOrUnloadingDamage": {
+    "type": "boolean",
+    "values": null
+  },
+  "powertrainDamagedByInsufficientOilOrCoolantCirculation": {
+    "type": "boolean",
+    "values": null
+  },
+  "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance": {
+    "type": "boolean",
+    "values": null
+  },
+  "damageCausedByDrivingOnWaterCoveredRoadOrArea": {
+    "type": "boolean",
+    "values": null
+  },
+  "waterSnowOrHailEnteredInteriorThroughOpenOpening": {
+    "type": "boolean",
+    "values": null
+  },
+  "carelessServiceOrHandling": {
+    "type": "boolean",
+    "values": null
+  },
+  "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad": {
+    "type": "boolean",
+    "values": null
+  },
+  "damageCausedByVehicleOrCombinationLoad": {
+    "type": "boolean",
+    "values": null
+  },
+  "damageCausedByAnimalInVehicle": {
+    "type": "boolean",
+    "values": null
+  },
+  "vehicleDamagedByItsOwnPartOrDevice": {
+    "type": "boolean",
+    "values": null
+  },
+  "competitionPracticeOrTrackUse": {
+    "type": "boolean",
+    "values": null
+  },
+  "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime": {
+    "type": "boolean",
+    "values": null
+  },
+  "nuclearDamagePresent": {
+    "type": "boolean",
+    "values": null
+  },
+  "damageCausedByListedCyberEvent": {
+    "type": "boolean",
+    "values": null
+  },
+  "singleDamageItemScopeConfirmed": {
+    "type": "boolean",
+    "values": null
+  },
+  "hyvaksyttyKorjausTaiHankintamaaraEur": {
+    "type": "number",
+    "values": null
+  },
+  "lisaomavastuunAjoneuvoluokka": {
+    "type": "enum",
+    "values": {
+      "henkiloauto": "Henkilöauto",
+      "moottorityokone": "Moottorityökone",
+      "traktori": "Traktori",
+      "kuorma_auto": "Kuorma-auto",
+      "peravaunu": "Perävaunu",
+      "linja_auto": "Linja-auto",
+      "muu": "Muu ajoneuvo"
+    }
+  },
+  "ajoneuvoVajosiSuohon": {
+    "type": "boolean",
+    "values": null
+  },
+  "osumaYlapuoliseenEsteeseen": {
+    "type": "boolean",
+    "values": null
+  },
+  "ylapuolisenEsteenKuljetuspoikkeus": {
+    "type": "boolean",
+    "values": null
+  },
+  "fnolDate": {
+    "type": "date",
+    "values": null
+  },
+  "lossEventDate": {
+    "type": "date",
+    "values": null
+  }
+}

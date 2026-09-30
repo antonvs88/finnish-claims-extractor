@@ -1,0 +1,2598 @@
+{
+  "selection_sha256": "fea9f747132254ac446f09016661d6cf2d7bf1550070d9ebfca30f6e3e07c791",
+  "models": {
+    "starting_baseline": {
+      "scores": {
+        "overall": {
+          "field_accuracy": {
+            "correct": 3726,
+            "total": 3780,
+            "rate": 0.9857142857142858
+          },
+          "exact_claims": {
+            "correct": 41,
+            "total": 90
+          },
+          "valid_schema": 90,
+          "per_type": {
+            "boolean": {
+              "correct": 2132,
+              "total": 2160,
+              "rate": 0.987037037037037
+            },
+            "enum": {
+              "correct": 518,
+              "total": 540,
+              "rate": 0.9592592592592593
+            },
+            "number": {
+              "correct": 897,
+              "total": 900,
+              "rate": 0.9966666666666667
+            },
+            "date": {
+              "correct": 179,
+              "total": 180,
+              "rate": 0.9944444444444445
+            }
+          },
+          "known_value_per_type": {
+            "boolean": {
+              "correct": 29,
+              "total": 57,
+              "rate": 0.5087719298245614
+            },
+            "enum": {
+              "correct": 14,
+              "total": 17,
+              "rate": 0.8235294117647058
+            },
+            "number": {
+              "correct": 16,
+              "total": 17,
+              "rate": 0.9411764705882353
+            },
+            "date": {
+              "correct": 3,
+              "total": 4,
+              "rate": 0.75
+            }
+          },
+          "known_value_accuracy": {
+            "correct": 62,
+            "total": 95,
+            "rate": 0.6526315789473685
+          },
+          "null_accuracy": {
+            "correct": 3664,
+            "total": 3685,
+            "rate": 0.9943012211668928
+          },
+          "answered_precision": {
+            "correct": 62,
+            "total": 84,
+            "rate": 0.7380952380952381
+          },
+          "unsupported_values": 21,
+          "boolean_confusion": {
+            "None -> None": 2103,
+            "True -> None": 3,
+            "True -> True": 26,
+            "False -> None": 25,
+            "False -> False": 3
+          },
+          "per_field": {
+            "policyInForce": {
+              "known": 3,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 0.6666666666666666,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCause": {
+              "known": 4,
+              "correct_known": 3,
+              "answered": 19,
+              "known_recall": 0.75,
+              "answer_precision": 0.15789473684210525,
+              "unsupported": 15
+            },
+            "isTransportNegligence": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "isLicenseOrSkillCourseTraining": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageInNordicArea": {
+              "known": 6,
+              "correct_known": 3,
+              "answered": 3,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "deductibleInPolicyEUR": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 2,
+              "known_recall": 1.0,
+              "answer_precision": 0.5,
+              "unsupported": 1
+            },
+            "claimedAmountEUR": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "vehiclePreLossFairValueEUR": {
+              "known": 2,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "korvaustapa": {
+              "known": 4,
+              "correct_known": 3,
+              "answered": 4,
+              "known_recall": 0.75,
+              "answer_precision": 0.75,
+              "unsupported": 1
+            },
+            "kustannuksenAlvKasittely": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 5,
+              "known_recall": 1.0,
+              "answer_precision": 0.6,
+              "unsupported": 2
+            },
+            "vahennettavaAlvEur": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lunastusarvonPeruste": {
+              "known": 3,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 0.6666666666666666,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lunastusarvoEur": {
+              "known": 2,
+              "correct_known": 2,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 0.6666666666666666,
+              "unsupported": 1
+            },
+            "uudenAjoneuvonKateismyyntihintaEur": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "vahingonJalkeinenJaannosarvoEur": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "myyntiOlisiOllutAlvVelvollinen": {
+              "known": 4,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lunastuksenAlvVastaavaMaaraEur": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "muunVeronTaiMaksunKasittely": {
+              "known": 2,
+              "correct_known": 2,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 0.6666666666666666,
+              "unsupported": 1
+            },
+            "vahennettavaMuuVeroTaiMaksuEur": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "isDirectConsequenceOfCoveredEvent": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "isLoadingOrUnloadingDamage": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "powertrainDamagedByInsufficientOilOrCoolantCirculation": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCausedByDrivingOnWaterCoveredRoadOrArea": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "waterSnowOrHailEnteredInteriorThroughOpenOpening": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "carelessServiceOrHandling": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCausedByVehicleOrCombinationLoad": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCausedByAnimalInVehicle": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "vehicleDamagedByItsOwnPartOrDevice": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "competitionPracticeOrTrackUse": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "nuclearDamagePresent": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCausedByListedCyberEvent": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "singleDamageItemScopeConfirmed": {
+              "known": 3,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 0.6666666666666666,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "hyvaksyttyKorjausTaiHankintamaaraEur": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lisaomavastuunAjoneuvoluokka": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "ajoneuvoVajosiSuohon": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "osumaYlapuoliseenEsteeseen": {
+              "known": 3,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 0.6666666666666666,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "ylapuolisenEsteenKuljetuspoikkeus": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "fnolDate": {
+              "known": 1,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "lossEventDate": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            }
+          }
+        },
+        "narrative": {
+          "field_accuracy": {
+            "correct": 742,
+            "total": 756,
+            "rate": 0.9814814814814815
+          },
+          "exact_claims": {
+            "correct": 8,
+            "total": 18
+          },
+          "valid_schema": 18,
+          "per_type": {
+            "boolean": {
+              "correct": 429,
+              "total": 432,
+              "rate": 0.9930555555555556
+            },
+            "enum": {
+              "correct": 101,
+              "total": 108,
+              "rate": 0.9351851851851852
+            },
+            "number": {
+              "correct": 177,
+              "total": 180,
+              "rate": 0.9833333333333333
+            },
+            "date": {
+              "correct": 35,
+              "total": 36,
+              "rate": 0.9722222222222222
+            }
+          },
+          "known_value_per_type": {
+            "boolean": {
+              "correct": 6,
+              "total": 9,
+              "rate": 0.6666666666666666
+            },
+            "enum": {
+              "correct": 14,
+              "total": 17,
+              "rate": 0.8235294117647058
+            },
+            "number": {
+              "correct": 16,
+              "total": 17,
+              "rate": 0.9411764705882353
+            },
+            "date": {
+              "correct": 3,
+              "total": 4,
+              "rate": 0.75
+            }
+          },
+          "known_value_accuracy": {
+            "correct": 39,
+            "total": 47,
+            "rate": 0.8297872340425532
+          },
+          "null_accuracy": {
+            "correct": 703,
+            "total": 709,
+            "rate": 0.9915373765867419
+          },
+          "answered_precision": {
+            "correct": 39,
+            "total": 46,
+            "rate": 0.8478260869565217
+          },
+          "unsupported_values": 6,
+          "boolean_confusion": {
+            "None -> None": 423,
+            "True -> None": 1,
+            "True -> True": 4,
+            "False -> None": 2,
+            "False -> False": 2
+          },
+          "per_field": {
+            "policyInForce": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCause": {
+              "known": 4,
+              "correct_known": 3,
+              "answered": 4,
+              "known_recall": 0.75,
+              "answer_precision": 0.75,
+              "unsupported": 0
+            },
+            "isTransportNegligence": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "isLicenseOrSkillCourseTraining": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageInNordicArea": {
+              "known": 4,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "deductibleInPolicyEUR": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 2,
+              "known_recall": 1.0,
+              "answer_precision": 0.5,
+              "unsupported": 1
+            },
+            "claimedAmountEUR": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "vehiclePreLossFairValueEUR": {
+              "known": 2,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "korvaustapa": {
+              "known": 4,
+              "correct_known": 3,
+              "answered": 4,
+              "known_recall": 0.75,
+              "answer_precision": 0.75,
+              "unsupported": 1
+            },
+            "kustannuksenAlvKasittely": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 5,
+              "known_recall": 1.0,
+              "answer_precision": 0.6,
+              "unsupported": 2
+            },
+            "vahennettavaAlvEur": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lunastusarvonPeruste": {
+              "known": 3,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 0.6666666666666666,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lunastusarvoEur": {
+              "known": 2,
+              "correct_known": 2,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 0.6666666666666666,
+              "unsupported": 1
+            },
+            "uudenAjoneuvonKateismyyntihintaEur": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "vahingonJalkeinenJaannosarvoEur": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "myyntiOlisiOllutAlvVelvollinen": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lunastuksenAlvVastaavaMaaraEur": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "muunVeronTaiMaksunKasittely": {
+              "known": 2,
+              "correct_known": 2,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 0.6666666666666666,
+              "unsupported": 1
+            },
+            "vahennettavaMuuVeroTaiMaksuEur": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "isDirectConsequenceOfCoveredEvent": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "isLoadingOrUnloadingDamage": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "powertrainDamagedByInsufficientOilOrCoolantCirculation": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageCausedByDrivingOnWaterCoveredRoadOrArea": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "waterSnowOrHailEnteredInteriorThroughOpenOpening": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "carelessServiceOrHandling": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageCausedByVehicleOrCombinationLoad": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageCausedByAnimalInVehicle": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "vehicleDamagedByItsOwnPartOrDevice": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "competitionPracticeOrTrackUse": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "nuclearDamagePresent": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageCausedByListedCyberEvent": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "singleDamageItemScopeConfirmed": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "hyvaksyttyKorjausTaiHankintamaaraEur": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lisaomavastuunAjoneuvoluokka": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "ajoneuvoVajosiSuohon": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "osumaYlapuoliseenEsteeseen": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "ylapuolisenEsteenKuljetuspoikkeus": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "fnolDate": {
+              "known": 1,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "lossEventDate": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            }
+          }
+        },
+        "diagnostic_questionnaire": {
+          "field_accuracy": {
+            "correct": 2984,
+            "total": 3024,
+            "rate": 0.9867724867724867
+          },
+          "exact_claims": {
+            "correct": 33,
+            "total": 72
+          },
+          "valid_schema": 72,
+          "per_type": {
+            "boolean": {
+              "correct": 1703,
+              "total": 1728,
+              "rate": 0.9855324074074074
+            },
+            "enum": {
+              "correct": 417,
+              "total": 432,
+              "rate": 0.9652777777777778
+            },
+            "number": {
+              "correct": 720,
+              "total": 720,
+              "rate": 1.0
+            },
+            "date": {
+              "correct": 144,
+              "total": 144,
+              "rate": 1.0
+            }
+          },
+          "known_value_per_type": {
+            "boolean": {
+              "correct": 23,
+              "total": 48,
+              "rate": 0.4791666666666667
+            },
+            "enum": {
+              "correct": 0,
+              "total": 0,
+              "rate": null
+            },
+            "number": {
+              "correct": 0,
+              "total": 0,
+              "rate": null
+            },
+            "date": {
+              "correct": 0,
+              "total": 0,
+              "rate": null
+            }
+          },
+          "known_value_accuracy": {
+            "correct": 23,
+            "total": 48,
+            "rate": 0.4791666666666667
+          },
+          "null_accuracy": {
+            "correct": 2961,
+            "total": 2976,
+            "rate": 0.9949596774193549
+          },
+          "answered_precision": {
+            "correct": 23,
+            "total": 38,
+            "rate": 0.6052631578947368
+          },
+          "unsupported_values": 15,
+          "boolean_confusion": {
+            "True -> True": 22,
+            "None -> None": 1680,
+            "False -> None": 23,
+            "True -> None": 2,
+            "False -> False": 1
+          },
+          "per_field": {
+            "policyInForce": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCause": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 15,
+              "known_recall": null,
+              "answer_precision": 0.0,
+              "unsupported": 15
+            },
+            "isTransportNegligence": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "isLicenseOrSkillCourseTraining": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageInNordicArea": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "deductibleInPolicyEUR": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "claimedAmountEUR": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "vehiclePreLossFairValueEUR": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "korvaustapa": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "kustannuksenAlvKasittely": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "vahennettavaAlvEur": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "lunastusarvonPeruste": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "lunastusarvoEur": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "uudenAjoneuvonKateismyyntihintaEur": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "vahingonJalkeinenJaannosarvoEur": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "myyntiOlisiOllutAlvVelvollinen": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lunastuksenAlvVastaavaMaaraEur": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "muunVeronTaiMaksunKasittely": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "vahennettavaMuuVeroTaiMaksuEur": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "isDirectConsequenceOfCoveredEvent": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "isLoadingOrUnloadingDamage": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "powertrainDamagedByInsufficientOilOrCoolantCirculation": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCausedByDrivingOnWaterCoveredRoadOrArea": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "waterSnowOrHailEnteredInteriorThroughOpenOpening": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "carelessServiceOrHandling": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCausedByVehicleOrCombinationLoad": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCausedByAnimalInVehicle": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "vehicleDamagedByItsOwnPartOrDevice": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "competitionPracticeOrTrackUse": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "nuclearDamagePresent": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCausedByListedCyberEvent": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "singleDamageItemScopeConfirmed": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "hyvaksyttyKorjausTaiHankintamaaraEur": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "lisaomavastuunAjoneuvoluokka": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "ajoneuvoVajosiSuohon": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "osumaYlapuoliseenEsteeseen": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "ylapuolisenEsteenKuljetuspoikkeus": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "fnolDate": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "lossEventDate": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            }
+          }
+        }
+      },
+      "accuracy_run_seconds": 44.032409084029496,
+      "matched_warmed_speed": [
+        {
+          "stratum": "narrative",
+          "repeat": 0,
+          "documents": 18,
+          "seconds": 6.083175166975707,
+          "claims_per_hour": 10652.331754605017,
+          "token_min": 45,
+          "token_max": 80
+        },
+        {
+          "stratum": "narrative",
+          "repeat": 1,
+          "documents": 18,
+          "seconds": 6.158436249999795,
+          "claims_per_hour": 10522.151625747876,
+          "token_min": 45,
+          "token_max": 80
+        },
+        {
+          "stratum": "diagnostic_questionnaire",
+          "repeat": 0,
+          "documents": 72,
+          "seconds": 37.55450575001305,
+          "claims_per_hour": 6901.968081417499,
+          "token_min": 70,
+          "token_max": 117
+        },
+        {
+          "stratum": "diagnostic_questionnaire",
+          "repeat": 1,
+          "documents": 72,
+          "seconds": 37.59508579201065,
+          "claims_per_hour": 6894.518114255314,
+          "token_min": 70,
+          "token_max": 117
+        }
+      ]
+    },
+    "locked_candidate": {
+      "scores": {
+        "overall": {
+          "field_accuracy": {
+            "correct": 3717,
+            "total": 3780,
+            "rate": 0.9833333333333333
+          },
+          "exact_claims": {
+            "correct": 40,
+            "total": 90
+          },
+          "valid_schema": 90,
+          "per_type": {
+            "boolean": {
+              "correct": 2117,
+              "total": 2160,
+              "rate": 0.9800925925925926
+            },
+            "enum": {
+              "correct": 524,
+              "total": 540,
+              "rate": 0.9703703703703703
+            },
+            "number": {
+              "correct": 897,
+              "total": 900,
+              "rate": 0.9966666666666667
+            },
+            "date": {
+              "correct": 179,
+              "total": 180,
+              "rate": 0.9944444444444445
+            }
+          },
+          "known_value_per_type": {
+            "boolean": {
+              "correct": 14,
+              "total": 57,
+              "rate": 0.24561403508771928
+            },
+            "enum": {
+              "correct": 15,
+              "total": 17,
+              "rate": 0.8823529411764706
+            },
+            "number": {
+              "correct": 15,
+              "total": 17,
+              "rate": 0.8823529411764706
+            },
+            "date": {
+              "correct": 3,
+              "total": 4,
+              "rate": 0.75
+            }
+          },
+          "known_value_accuracy": {
+            "correct": 47,
+            "total": 95,
+            "rate": 0.49473684210526314
+          },
+          "null_accuracy": {
+            "correct": 3670,
+            "total": 3685,
+            "rate": 0.9959294436906377
+          },
+          "answered_precision": {
+            "correct": 47,
+            "total": 63,
+            "rate": 0.746031746031746
+          },
+          "unsupported_values": 15,
+          "boolean_confusion": {
+            "None -> None": 2103,
+            "True -> None": 18,
+            "True -> True": 11,
+            "False -> None": 25,
+            "False -> False": 3
+          },
+          "per_field": {
+            "policyInForce": {
+              "known": 3,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 0.6666666666666666,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCause": {
+              "known": 4,
+              "correct_known": 3,
+              "answered": 14,
+              "known_recall": 0.75,
+              "answer_precision": 0.21428571428571427,
+              "unsupported": 10
+            },
+            "isTransportNegligence": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "isLicenseOrSkillCourseTraining": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageInNordicArea": {
+              "known": 6,
+              "correct_known": 3,
+              "answered": 3,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "deductibleInPolicyEUR": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 2,
+              "known_recall": 1.0,
+              "answer_precision": 0.5,
+              "unsupported": 1
+            },
+            "claimedAmountEUR": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "vehiclePreLossFairValueEUR": {
+              "known": 2,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "korvaustapa": {
+              "known": 4,
+              "correct_known": 4,
+              "answered": 5,
+              "known_recall": 1.0,
+              "answer_precision": 0.8,
+              "unsupported": 1
+            },
+            "kustannuksenAlvKasittely": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 5,
+              "known_recall": 1.0,
+              "answer_precision": 0.6,
+              "unsupported": 2
+            },
+            "vahennettavaAlvEur": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lunastusarvonPeruste": {
+              "known": 3,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 0.6666666666666666,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lunastusarvoEur": {
+              "known": 2,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "uudenAjoneuvonKateismyyntihintaEur": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "vahingonJalkeinenJaannosarvoEur": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "myyntiOlisiOllutAlvVelvollinen": {
+              "known": 4,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lunastuksenAlvVastaavaMaaraEur": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "muunVeronTaiMaksunKasittely": {
+              "known": 2,
+              "correct_known": 2,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 0.6666666666666666,
+              "unsupported": 1
+            },
+            "vahennettavaMuuVeroTaiMaksuEur": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "isDirectConsequenceOfCoveredEvent": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "isLoadingOrUnloadingDamage": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "powertrainDamagedByInsufficientOilOrCoolantCirculation": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageCausedByDrivingOnWaterCoveredRoadOrArea": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "waterSnowOrHailEnteredInteriorThroughOpenOpening": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "carelessServiceOrHandling": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCausedByVehicleOrCombinationLoad": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageCausedByAnimalInVehicle": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "vehicleDamagedByItsOwnPartOrDevice": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "competitionPracticeOrTrackUse": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "nuclearDamagePresent": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageCausedByListedCyberEvent": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "singleDamageItemScopeConfirmed": {
+              "known": 3,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 0.6666666666666666,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "hyvaksyttyKorjausTaiHankintamaaraEur": {
+              "known": 1,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "lisaomavastuunAjoneuvoluokka": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "ajoneuvoVajosiSuohon": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "osumaYlapuoliseenEsteeseen": {
+              "known": 3,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.3333333333333333,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "ylapuolisenEsteenKuljetuspoikkeus": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "fnolDate": {
+              "known": 1,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "lossEventDate": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            }
+          }
+        },
+        "narrative": {
+          "field_accuracy": {
+            "correct": 743,
+            "total": 756,
+            "rate": 0.9828042328042328
+          },
+          "exact_claims": {
+            "correct": 9,
+            "total": 18
+          },
+          "valid_schema": 18,
+          "per_type": {
+            "boolean": {
+              "correct": 429,
+              "total": 432,
+              "rate": 0.9930555555555556
+            },
+            "enum": {
+              "correct": 102,
+              "total": 108,
+              "rate": 0.9444444444444444
+            },
+            "number": {
+              "correct": 177,
+              "total": 180,
+              "rate": 0.9833333333333333
+            },
+            "date": {
+              "correct": 35,
+              "total": 36,
+              "rate": 0.9722222222222222
+            }
+          },
+          "known_value_per_type": {
+            "boolean": {
+              "correct": 6,
+              "total": 9,
+              "rate": 0.6666666666666666
+            },
+            "enum": {
+              "correct": 15,
+              "total": 17,
+              "rate": 0.8823529411764706
+            },
+            "number": {
+              "correct": 15,
+              "total": 17,
+              "rate": 0.8823529411764706
+            },
+            "date": {
+              "correct": 3,
+              "total": 4,
+              "rate": 0.75
+            }
+          },
+          "known_value_accuracy": {
+            "correct": 39,
+            "total": 47,
+            "rate": 0.8297872340425532
+          },
+          "null_accuracy": {
+            "correct": 704,
+            "total": 709,
+            "rate": 0.9929478138222849
+          },
+          "answered_precision": {
+            "correct": 39,
+            "total": 45,
+            "rate": 0.8666666666666667
+          },
+          "unsupported_values": 5,
+          "boolean_confusion": {
+            "None -> None": 423,
+            "True -> None": 1,
+            "True -> True": 4,
+            "False -> None": 2,
+            "False -> False": 2
+          },
+          "per_field": {
+            "policyInForce": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCause": {
+              "known": 4,
+              "correct_known": 3,
+              "answered": 4,
+              "known_recall": 0.75,
+              "answer_precision": 0.75,
+              "unsupported": 0
+            },
+            "isTransportNegligence": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "isLicenseOrSkillCourseTraining": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageInNordicArea": {
+              "known": 4,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "deductibleInPolicyEUR": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 2,
+              "known_recall": 1.0,
+              "answer_precision": 0.5,
+              "unsupported": 1
+            },
+            "claimedAmountEUR": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "vehiclePreLossFairValueEUR": {
+              "known": 2,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "korvaustapa": {
+              "known": 4,
+              "correct_known": 4,
+              "answered": 5,
+              "known_recall": 1.0,
+              "answer_precision": 0.8,
+              "unsupported": 1
+            },
+            "kustannuksenAlvKasittely": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 5,
+              "known_recall": 1.0,
+              "answer_precision": 0.6,
+              "unsupported": 2
+            },
+            "vahennettavaAlvEur": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lunastusarvonPeruste": {
+              "known": 3,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 0.6666666666666666,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lunastusarvoEur": {
+              "known": 2,
+              "correct_known": 2,
+              "answered": 2,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "uudenAjoneuvonKateismyyntihintaEur": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "vahingonJalkeinenJaannosarvoEur": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "myyntiOlisiOllutAlvVelvollinen": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lunastuksenAlvVastaavaMaaraEur": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "muunVeronTaiMaksunKasittely": {
+              "known": 2,
+              "correct_known": 2,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 0.6666666666666666,
+              "unsupported": 1
+            },
+            "vahennettavaMuuVeroTaiMaksuEur": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "isDirectConsequenceOfCoveredEvent": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "isLoadingOrUnloadingDamage": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "powertrainDamagedByInsufficientOilOrCoolantCirculation": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageCausedByDrivingOnWaterCoveredRoadOrArea": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "waterSnowOrHailEnteredInteriorThroughOpenOpening": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "carelessServiceOrHandling": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageCausedByVehicleOrCombinationLoad": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageCausedByAnimalInVehicle": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "vehicleDamagedByItsOwnPartOrDevice": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "competitionPracticeOrTrackUse": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "nuclearDamagePresent": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageCausedByListedCyberEvent": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "singleDamageItemScopeConfirmed": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "hyvaksyttyKorjausTaiHankintamaaraEur": {
+              "known": 1,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "lisaomavastuunAjoneuvoluokka": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "ajoneuvoVajosiSuohon": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "osumaYlapuoliseenEsteeseen": {
+              "known": 1,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "ylapuolisenEsteenKuljetuspoikkeus": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "fnolDate": {
+              "known": 1,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "lossEventDate": {
+              "known": 3,
+              "correct_known": 3,
+              "answered": 3,
+              "known_recall": 1.0,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            }
+          }
+        },
+        "diagnostic_questionnaire": {
+          "field_accuracy": {
+            "correct": 2974,
+            "total": 3024,
+            "rate": 0.9834656084656085
+          },
+          "exact_claims": {
+            "correct": 31,
+            "total": 72
+          },
+          "valid_schema": 72,
+          "per_type": {
+            "boolean": {
+              "correct": 1688,
+              "total": 1728,
+              "rate": 0.9768518518518519
+            },
+            "enum": {
+              "correct": 422,
+              "total": 432,
+              "rate": 0.9768518518518519
+            },
+            "number": {
+              "correct": 720,
+              "total": 720,
+              "rate": 1.0
+            },
+            "date": {
+              "correct": 144,
+              "total": 144,
+              "rate": 1.0
+            }
+          },
+          "known_value_per_type": {
+            "boolean": {
+              "correct": 8,
+              "total": 48,
+              "rate": 0.16666666666666666
+            },
+            "enum": {
+              "correct": 0,
+              "total": 0,
+              "rate": null
+            },
+            "number": {
+              "correct": 0,
+              "total": 0,
+              "rate": null
+            },
+            "date": {
+              "correct": 0,
+              "total": 0,
+              "rate": null
+            }
+          },
+          "known_value_accuracy": {
+            "correct": 8,
+            "total": 48,
+            "rate": 0.16666666666666666
+          },
+          "null_accuracy": {
+            "correct": 2966,
+            "total": 2976,
+            "rate": 0.9966397849462365
+          },
+          "answered_precision": {
+            "correct": 8,
+            "total": 18,
+            "rate": 0.4444444444444444
+          },
+          "unsupported_values": 10,
+          "boolean_confusion": {
+            "True -> True": 7,
+            "None -> None": 1680,
+            "False -> None": 23,
+            "True -> None": 17,
+            "False -> False": 1
+          },
+          "per_field": {
+            "policyInForce": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCause": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 10,
+              "known_recall": null,
+              "answer_precision": 0.0,
+              "unsupported": 10
+            },
+            "isTransportNegligence": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "isLicenseOrSkillCourseTraining": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageInNordicArea": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "deductibleInPolicyEUR": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "claimedAmountEUR": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "vehiclePreLossFairValueEUR": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "korvaustapa": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "kustannuksenAlvKasittely": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "vahennettavaAlvEur": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "lunastusarvonPeruste": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "lunastusarvoEur": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "uudenAjoneuvonKateismyyntihintaEur": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "vahingonJalkeinenJaannosarvoEur": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "myyntiOlisiOllutAlvVelvollinen": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "lunastuksenAlvVastaavaMaaraEur": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "muunVeronTaiMaksunKasittely": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "vahennettavaMuuVeroTaiMaksuEur": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "isDirectConsequenceOfCoveredEvent": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "isLoadingOrUnloadingDamage": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "powertrainDamagedByInsufficientOilOrCoolantCirculation": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageCausedByDrivingOnWaterCoveredRoadOrArea": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "waterSnowOrHailEnteredInteriorThroughOpenOpening": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "carelessServiceOrHandling": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "damageCausedByVehicleOrCombinationLoad": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageCausedByAnimalInVehicle": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "vehicleDamagedByItsOwnPartOrDevice": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "competitionPracticeOrTrackUse": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "nuclearDamagePresent": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "damageCausedByListedCyberEvent": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "singleDamageItemScopeConfirmed": {
+              "known": 2,
+              "correct_known": 1,
+              "answered": 1,
+              "known_recall": 0.5,
+              "answer_precision": 1.0,
+              "unsupported": 0
+            },
+            "hyvaksyttyKorjausTaiHankintamaaraEur": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "lisaomavastuunAjoneuvoluokka": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "ajoneuvoVajosiSuohon": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "osumaYlapuoliseenEsteeseen": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "ylapuolisenEsteenKuljetuspoikkeus": {
+              "known": 2,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": 0.0,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "fnolDate": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            },
+            "lossEventDate": {
+              "known": 0,
+              "correct_known": 0,
+              "answered": 0,
+              "known_recall": null,
+              "answer_precision": null,
+              "unsupported": 0
+            }
+          }
+        }
+      },
+      "accuracy_run_seconds": 58.95762191701215,
+      "matched_warmed_speed": [
+        {
+          "stratum": "narrative",
+          "repeat": 0,
+          "documents": 18,
+          "seconds": 8.494023583014496,
+          "claims_per_hour": 7628.893346797459,
+          "token_min": 45,
+          "token_max": 80
+        },
+        {
+          "stratum": "narrative",
+          "repeat": 1,
+          "documents": 18,
+          "seconds": 8.63323933398351,
+          "claims_per_hour": 7505.873229405801,
+          "token_min": 45,
+          "token_max": 80
+        },
+        {
+          "stratum": "diagnostic_questionnaire",
+          "repeat": 0,
+          "documents": 72,
+          "seconds": 71.3062996249646,
+          "claims_per_hour": 3635.022450516464,
+          "token_min": 70,
+          "token_max": 117
+        },
+        {
+          "stratum": "diagnostic_questionnaire",
+          "repeat": 1,
+          "documents": 72,
+          "seconds": 105.18572208296973,
+          "claims_per_hour": 2464.21277400696,
+          "token_min": 70,
+          "token_max": 117
+        }
+      ]
+    }
+  },
+  "notes": [
+    "Frozen synthetic holdout; no model selection or tuning permitted after this evaluation.",
+    "Same-author synthetic narratives and easier questionnaire diagnostics must be reported separately.",
+    "Small known-value counts and shared schema/templates do not establish production accuracy."
+  ]
+}
