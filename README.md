@@ -19,7 +19,7 @@ The new Boolean model frequently returns null for explicit yes/no answers in uns
 
 ## Run locally
 
-The preserved runtime requires an Apple Silicon Mac with MPS and sufficient memory. It was tested on an M3 Max with 128GB RAM; this is not a measured minimum. Linux/CUDA portability has not been validated.
+The device is picked automatically: `mps` (Apple Silicon), else `cuda`, else `cpu`; set `CLAIMS_EXTRACTOR_DEVICE` to force one. The frozen runtime was built and tested on an M3 Max with 128GB RAM (half precision on mps). CPU runs in float32 and reproduced the 2 bundled synthetic outputs and 72 synthetic question–answer outputs identical to half precision on a Linux CPU (72 short texts in under 5 minutes on 8 cores); cuda has not been tested. Full-dataset parity with the mps runtime has not been re-measured off Apple Silicon.
 
 1. Create a Python 3.13 environment and install `requirements.txt`. The recorded Torch build may require the matching prerelease wheel source; use an available compatible build if necessary and recheck parity.
 2. Authenticate the GitHub CLI with access to this private repository, then run `python download_models.py`. This verifies and extracts release assets.
