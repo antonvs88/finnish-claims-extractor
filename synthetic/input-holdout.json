@@ -1,0 +1,578 @@
+[
+ {
+  "id": "policyInForce|true|holdout|p3w2a2",
+  "text": "Oliko ajoneuvon vakuutus voimassa silloin, kun vahinko tapahtui? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "policyInForce|true|holdout|p3w1a2",
+  "text": "Kysymys: Oliko ajoneuvon vakuutus voimassa silloin, kun vahinko tapahtui?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "policyInForce|false|holdout|p3w2a2",
+  "text": "Oliko ajoneuvon vakuutus voimassa silloin, kun vahinko tapahtui? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "policyInForce|false|holdout|p3w1a2",
+  "text": "Kysymys: Oliko ajoneuvon vakuutus voimassa silloin, kun vahinko tapahtui?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "policyInForce|null|holdout|p3w2a2",
+  "text": "Oliko ajoneuvon vakuutus voimassa silloin, kun vahinko tapahtui? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "policyInForce|null|holdout|p3w1a2",
+  "text": "Kysymys: Oliko ajoneuvon vakuutus voimassa silloin, kun vahinko tapahtui?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isTransportNegligence|true|holdout|p3w2a2",
+  "text": "Sattuiko vahinko siksi, että ajoneuvon kuljetuksessa oltiin huolimattomia? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isTransportNegligence|true|holdout|p3w1a2",
+  "text": "Kysymys: Sattuiko vahinko siksi, että ajoneuvon kuljetuksessa oltiin huolimattomia?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isTransportNegligence|false|holdout|p3w2a2",
+  "text": "Sattuiko vahinko siksi, että ajoneuvon kuljetuksessa oltiin huolimattomia? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isTransportNegligence|false|holdout|p3w1a2",
+  "text": "Kysymys: Sattuiko vahinko siksi, että ajoneuvon kuljetuksessa oltiin huolimattomia?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isTransportNegligence|null|holdout|p3w2a2",
+  "text": "Sattuiko vahinko siksi, että ajoneuvon kuljetuksessa oltiin huolimattomia? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isTransportNegligence|null|holdout|p3w1a2",
+  "text": "Kysymys: Sattuiko vahinko siksi, että ajoneuvon kuljetuksessa oltiin huolimattomia?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|true|holdout|p3w2a2",
+  "text": "Sattuiko vahinko ajo-opetuksen tai ajotaitokurssin aikana? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|true|holdout|p3w1a2",
+  "text": "Kysymys: Sattuiko vahinko ajo-opetuksen tai ajotaitokurssin aikana?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|false|holdout|p3w2a2",
+  "text": "Sattuiko vahinko ajo-opetuksen tai ajotaitokurssin aikana? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|false|holdout|p3w1a2",
+  "text": "Kysymys: Sattuiko vahinko ajo-opetuksen tai ajotaitokurssin aikana?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|null|holdout|p3w2a2",
+  "text": "Sattuiko vahinko ajo-opetuksen tai ajotaitokurssin aikana? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isLicenseOrSkillCourseTraining|null|holdout|p3w1a2",
+  "text": "Kysymys: Sattuiko vahinko ajo-opetuksen tai ajotaitokurssin aikana?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageInNordicArea|true|holdout|p3w2a2",
+  "text": "Onko vahinko sattunut Pohjoismaiden alueella? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageInNordicArea|true|holdout|p3w1a2",
+  "text": "Kysymys: Onko vahinko sattunut Pohjoismaiden alueella?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageInNordicArea|false|holdout|p3w2a2",
+  "text": "Onko vahinko sattunut Pohjoismaiden alueella? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageInNordicArea|false|holdout|p3w1a2",
+  "text": "Kysymys: Onko vahinko sattunut Pohjoismaiden alueella?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageInNordicArea|null|holdout|p3w2a2",
+  "text": "Onko vahinko sattunut Pohjoismaiden alueella? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageInNordicArea|null|holdout|p3w1a2",
+  "text": "Kysymys: Onko vahinko sattunut Pohjoismaiden alueella?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|true|holdout|p3w2a2",
+  "text": "Olisiko myyntitilanteessa sovellettu arvonlisäveroa ajoneuvon hintaan? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|true|holdout|p3w1a2",
+  "text": "Kysymys: Olisiko myyntitilanteessa sovellettu arvonlisäveroa ajoneuvon hintaan?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|false|holdout|p3w2a2",
+  "text": "Olisiko myyntitilanteessa sovellettu arvonlisäveroa ajoneuvon hintaan? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|false|holdout|p3w1a2",
+  "text": "Kysymys: Olisiko myyntitilanteessa sovellettu arvonlisäveroa ajoneuvon hintaan?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|null|holdout|p3w2a2",
+  "text": "Olisiko myyntitilanteessa sovellettu arvonlisäveroa ajoneuvon hintaan? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "myyntiOlisiOllutAlvVelvollinen|null|holdout|p3w1a2",
+  "text": "Kysymys: Olisiko myyntitilanteessa sovellettu arvonlisäveroa ajoneuvon hintaan?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|true|holdout|p3w2a2",
+  "text": "Oliko vahingon välitön syy korvattava tapahtuma? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|true|holdout|p3w1a2",
+  "text": "Kysymys: Oliko vahingon välitön syy korvattava tapahtuma?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|false|holdout|p3w2a2",
+  "text": "Oliko vahingon välitön syy korvattava tapahtuma? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|false|holdout|p3w1a2",
+  "text": "Kysymys: Oliko vahingon välitön syy korvattava tapahtuma?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|null|holdout|p3w2a2",
+  "text": "Oliko vahingon välitön syy korvattava tapahtuma? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isDirectConsequenceOfCoveredEvent|null|holdout|p3w1a2",
+  "text": "Kysymys: Oliko vahingon välitön syy korvattava tapahtuma?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|true|holdout|p3w2a2",
+  "text": "Sattuiko vahinko lastauksen tai purun aikana? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|true|holdout|p3w1a2",
+  "text": "Kysymys: Sattuiko vahinko lastauksen tai purun aikana?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|false|holdout|p3w2a2",
+  "text": "Sattuiko vahinko lastauksen tai purun aikana? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|false|holdout|p3w1a2",
+  "text": "Kysymys: Sattuiko vahinko lastauksen tai purun aikana?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|null|holdout|p3w2a2",
+  "text": "Sattuiko vahinko lastauksen tai purun aikana? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "isLoadingOrUnloadingDamage|null|holdout|p3w1a2",
+  "text": "Kysymys: Sattuiko vahinko lastauksen tai purun aikana?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|true|holdout|p3w2a2",
+  "text": "Oliko voimansiirron vaurion syynä liian vähäinen öljyn tai jäähdytysnesteen kierto? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|true|holdout|p3w1a2",
+  "text": "Kysymys: Oliko voimansiirron vaurion syynä liian vähäinen öljyn tai jäähdytysnesteen kierto?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|false|holdout|p3w2a2",
+  "text": "Oliko voimansiirron vaurion syynä liian vähäinen öljyn tai jäähdytysnesteen kierto? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|false|holdout|p3w1a2",
+  "text": "Kysymys: Oliko voimansiirron vaurion syynä liian vähäinen öljyn tai jäähdytysnesteen kierto?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|null|holdout|p3w2a2",
+  "text": "Oliko voimansiirron vaurion syynä liian vähäinen öljyn tai jäähdytysnesteen kierto? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "powertrainDamagedByInsufficientOilOrCoolantCirculation|null|holdout|p3w1a2",
+  "text": "Kysymys: Oliko voimansiirron vaurion syynä liian vähäinen öljyn tai jäähdytysnesteen kierto?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|true|holdout|p3w2a2",
+  "text": "Oliko osan tai laitteen vaurion syy vika, kuluminen tai huoltamattomuus? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|true|holdout|p3w1a2",
+  "text": "Kysymys: Oliko osan tai laitteen vaurion syy vika, kuluminen tai huoltamattomuus?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|false|holdout|p3w2a2",
+  "text": "Oliko osan tai laitteen vaurion syy vika, kuluminen tai huoltamattomuus? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|false|holdout|p3w1a2",
+  "text": "Kysymys: Oliko osan tai laitteen vaurion syy vika, kuluminen tai huoltamattomuus?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|null|holdout|p3w2a2",
+  "text": "Oliko osan tai laitteen vaurion syy vika, kuluminen tai huoltamattomuus? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "partOrEquipmentDamagedByDefectWearOrDeficientMaintenance|null|holdout|p3w1a2",
+  "text": "Kysymys: Oliko osan tai laitteen vaurion syy vika, kuluminen tai huoltamattomuus?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|true|holdout|p3w2a2",
+  "text": "Johtuiko vahinko siitä, että ajoneuvolla ajettiin veden peittämällä alueella? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|true|holdout|p3w1a2",
+  "text": "Kysymys: Johtuiko vahinko siitä, että ajoneuvolla ajettiin veden peittämällä alueella?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|false|holdout|p3w2a2",
+  "text": "Johtuiko vahinko siitä, että ajoneuvolla ajettiin veden peittämällä alueella? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|false|holdout|p3w1a2",
+  "text": "Kysymys: Johtuiko vahinko siitä, että ajoneuvolla ajettiin veden peittämällä alueella?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|null|holdout|p3w2a2",
+  "text": "Johtuiko vahinko siitä, että ajoneuvolla ajettiin veden peittämällä alueella? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByDrivingOnWaterCoveredRoadOrArea|null|holdout|p3w1a2",
+  "text": "Kysymys: Johtuiko vahinko siitä, että ajoneuvolla ajettiin veden peittämällä alueella?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|true|holdout|p3w2a2",
+  "text": "Kulkeutuiko vesi, lumi tai rae sisätiloihin avoinna olleen aukon kautta? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|true|holdout|p3w1a2",
+  "text": "Kysymys: Kulkeutuiko vesi, lumi tai rae sisätiloihin avoinna olleen aukon kautta?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|false|holdout|p3w2a2",
+  "text": "Kulkeutuiko vesi, lumi tai rae sisätiloihin avoinna olleen aukon kautta? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|false|holdout|p3w1a2",
+  "text": "Kysymys: Kulkeutuiko vesi, lumi tai rae sisätiloihin avoinna olleen aukon kautta?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|null|holdout|p3w2a2",
+  "text": "Kulkeutuiko vesi, lumi tai rae sisätiloihin avoinna olleen aukon kautta? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "waterSnowOrHailEnteredInteriorThroughOpenOpening|null|holdout|p3w1a2",
+  "text": "Kysymys: Kulkeutuiko vesi, lumi tai rae sisätiloihin avoinna olleen aukon kautta?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "carelessServiceOrHandling|true|holdout|p3w2a2",
+  "text": "Syntyikö vahinko siitä, että ajoneuvoa huollettiin tai käsiteltiin huolimattomasti? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "carelessServiceOrHandling|true|holdout|p3w1a2",
+  "text": "Kysymys: Syntyikö vahinko siitä, että ajoneuvoa huollettiin tai käsiteltiin huolimattomasti?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "carelessServiceOrHandling|false|holdout|p3w2a2",
+  "text": "Syntyikö vahinko siitä, että ajoneuvoa huollettiin tai käsiteltiin huolimattomasti? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "carelessServiceOrHandling|false|holdout|p3w1a2",
+  "text": "Kysymys: Syntyikö vahinko siitä, että ajoneuvoa huollettiin tai käsiteltiin huolimattomasti?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "carelessServiceOrHandling|null|holdout|p3w2a2",
+  "text": "Syntyikö vahinko siitä, että ajoneuvoa huollettiin tai käsiteltiin huolimattomasti? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "carelessServiceOrHandling|null|holdout|p3w1a2",
+  "text": "Kysymys: Syntyikö vahinko siitä, että ajoneuvoa huollettiin tai käsiteltiin huolimattomasti?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|true|holdout|p3w2a2",
+  "text": "Oliko kyse ajoneuvosta, joka vajosi jään läpi muulla kuin hyväksytyllä talvitiellä? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|true|holdout|p3w1a2",
+  "text": "Kysymys: Oliko kyse ajoneuvosta, joka vajosi jään läpi muulla kuin hyväksytyllä talvitiellä?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|false|holdout|p3w2a2",
+  "text": "Oliko kyse ajoneuvosta, joka vajosi jään läpi muulla kuin hyväksytyllä talvitiellä? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|false|holdout|p3w1a2",
+  "text": "Kysymys: Oliko kyse ajoneuvosta, joka vajosi jään läpi muulla kuin hyväksytyllä talvitiellä?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|null|holdout|p3w2a2",
+  "text": "Oliko kyse ajoneuvosta, joka vajosi jään läpi muulla kuin hyväksytyllä talvitiellä? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "nonExemptVehicleSankThroughIceOutsideApprovedWinterRoad|null|holdout|p3w1a2",
+  "text": "Kysymys: Oliko kyse ajoneuvosta, joka vajosi jään läpi muulla kuin hyväksytyllä talvitiellä?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|true|holdout|p3w2a2",
+  "text": "Syntyikö vahinko kuorman vuoksi? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|true|holdout|p3w1a2",
+  "text": "Kysymys: Syntyikö vahinko kuorman vuoksi?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|false|holdout|p3w2a2",
+  "text": "Syntyikö vahinko kuorman vuoksi? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|false|holdout|p3w1a2",
+  "text": "Kysymys: Syntyikö vahinko kuorman vuoksi?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|null|holdout|p3w2a2",
+  "text": "Syntyikö vahinko kuorman vuoksi? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByVehicleOrCombinationLoad|null|holdout|p3w1a2",
+  "text": "Kysymys: Syntyikö vahinko kuorman vuoksi?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|true|holdout|p3w2a2",
+  "text": "Syntyikö vahinko siitä, että ajoneuvossa oli eläin? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|true|holdout|p3w1a2",
+  "text": "Kysymys: Syntyikö vahinko siitä, että ajoneuvossa oli eläin?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|false|holdout|p3w2a2",
+  "text": "Syntyikö vahinko siitä, että ajoneuvossa oli eläin? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|false|holdout|p3w1a2",
+  "text": "Kysymys: Syntyikö vahinko siitä, että ajoneuvossa oli eläin?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|null|holdout|p3w2a2",
+  "text": "Syntyikö vahinko siitä, että ajoneuvossa oli eläin? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByAnimalInVehicle|null|holdout|p3w1a2",
+  "text": "Kysymys: Syntyikö vahinko siitä, että ajoneuvossa oli eläin?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|true|holdout|p3w2a2",
+  "text": "Oliko vahingon aiheuttaja ajoneuvon oma osa tai laite? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|true|holdout|p3w1a2",
+  "text": "Kysymys: Oliko vahingon aiheuttaja ajoneuvon oma osa tai laite?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|false|holdout|p3w2a2",
+  "text": "Oliko vahingon aiheuttaja ajoneuvon oma osa tai laite? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|false|holdout|p3w1a2",
+  "text": "Kysymys: Oliko vahingon aiheuttaja ajoneuvon oma osa tai laite?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|null|holdout|p3w2a2",
+  "text": "Oliko vahingon aiheuttaja ajoneuvon oma osa tai laite? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "vehicleDamagedByItsOwnPartOrDevice|null|holdout|p3w1a2",
+  "text": "Kysymys: Oliko vahingon aiheuttaja ajoneuvon oma osa tai laite?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|true|holdout|p3w2a2",
+  "text": "Oliko ajoneuvo vahinkohetkellä ratakäytössä, kilpailussa tai harjoittelussa? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|true|holdout|p3w1a2",
+  "text": "Kysymys: Oliko ajoneuvo vahinkohetkellä ratakäytössä, kilpailussa tai harjoittelussa?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|false|holdout|p3w2a2",
+  "text": "Oliko ajoneuvo vahinkohetkellä ratakäytössä, kilpailussa tai harjoittelussa? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|false|holdout|p3w1a2",
+  "text": "Kysymys: Oliko ajoneuvo vahinkohetkellä ratakäytössä, kilpailussa tai harjoittelussa?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|null|holdout|p3w2a2",
+  "text": "Oliko ajoneuvo vahinkohetkellä ratakäytössä, kilpailussa tai harjoittelussa? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "competitionPracticeOrTrackUse|null|holdout|p3w1a2",
+  "text": "Kysymys: Oliko ajoneuvo vahinkohetkellä ratakäytössä, kilpailussa tai harjoittelussa?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|true|holdout|p3w2a2",
+  "text": "Oliko vahingon taustalla tahallinen teko tai rikos? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|true|holdout|p3w1a2",
+  "text": "Kysymys: Oliko vahingon taustalla tahallinen teko tai rikos?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|false|holdout|p3w2a2",
+  "text": "Oliko vahingon taustalla tahallinen teko tai rikos? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|false|holdout|p3w1a2",
+  "text": "Kysymys: Oliko vahingon taustalla tahallinen teko tai rikos?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|null|holdout|p3w2a2",
+  "text": "Oliko vahingon taustalla tahallinen teko tai rikos? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageOccurredDuringAfterOrBecauseOfListedIntentionalActOrCrime|null|holdout|p3w1a2",
+  "text": "Kysymys: Oliko vahingon taustalla tahallinen teko tai rikos?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "nuclearDamagePresent|true|holdout|p3w2a2",
+  "text": "Oliko vahinko ydinvahinko? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "nuclearDamagePresent|true|holdout|p3w1a2",
+  "text": "Kysymys: Oliko vahinko ydinvahinko?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "nuclearDamagePresent|false|holdout|p3w2a2",
+  "text": "Oliko vahinko ydinvahinko? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "nuclearDamagePresent|false|holdout|p3w1a2",
+  "text": "Kysymys: Oliko vahinko ydinvahinko?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "nuclearDamagePresent|null|holdout|p3w2a2",
+  "text": "Oliko vahinko ydinvahinko? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "nuclearDamagePresent|null|holdout|p3w1a2",
+  "text": "Kysymys: Oliko vahinko ydinvahinko?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|true|holdout|p3w2a2",
+  "text": "Syntyikö vahinko tietoverkkoon kohdistuneen hyökkäyksen seurauksena? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|true|holdout|p3w1a2",
+  "text": "Kysymys: Syntyikö vahinko tietoverkkoon kohdistuneen hyökkäyksen seurauksena?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|false|holdout|p3w2a2",
+  "text": "Syntyikö vahinko tietoverkkoon kohdistuneen hyökkäyksen seurauksena? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|false|holdout|p3w1a2",
+  "text": "Kysymys: Syntyikö vahinko tietoverkkoon kohdistuneen hyökkäyksen seurauksena?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|null|holdout|p3w2a2",
+  "text": "Syntyikö vahinko tietoverkkoon kohdistuneen hyökkäyksen seurauksena? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "damageCausedByListedCyberEvent|null|holdout|p3w1a2",
+  "text": "Kysymys: Syntyikö vahinko tietoverkkoon kohdistuneen hyökkäyksen seurauksena?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|true|holdout|p3w2a2",
+  "text": "Onko varmistettu, että vahinko koskee vain yhtä kohdetta? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|true|holdout|p3w1a2",
+  "text": "Kysymys: Onko varmistettu, että vahinko koskee vain yhtä kohdetta?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|false|holdout|p3w2a2",
+  "text": "Onko varmistettu, että vahinko koskee vain yhtä kohdetta? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|false|holdout|p3w1a2",
+  "text": "Kysymys: Onko varmistettu, että vahinko koskee vain yhtä kohdetta?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|null|holdout|p3w2a2",
+  "text": "Onko varmistettu, että vahinko koskee vain yhtä kohdetta? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "singleDamageItemScopeConfirmed|null|holdout|p3w1a2",
+  "text": "Kysymys: Onko varmistettu, että vahinko koskee vain yhtä kohdetta?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|true|holdout|p3w2a2",
+  "text": "Vajosiko ajoneuvo suomaastossa? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|true|holdout|p3w1a2",
+  "text": "Kysymys: Vajosiko ajoneuvo suomaastossa?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|false|holdout|p3w2a2",
+  "text": "Vajosiko ajoneuvo suomaastossa? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|false|holdout|p3w1a2",
+  "text": "Kysymys: Vajosiko ajoneuvo suomaastossa?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|null|holdout|p3w2a2",
+  "text": "Vajosiko ajoneuvo suomaastossa? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "ajoneuvoVajosiSuohon|null|holdout|p3w1a2",
+  "text": "Kysymys: Vajosiko ajoneuvo suomaastossa?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|true|holdout|p3w2a2",
+  "text": "Oliko vahinko seurausta osumasta yläpuoliseen esteeseen? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|true|holdout|p3w1a2",
+  "text": "Kysymys: Oliko vahinko seurausta osumasta yläpuoliseen esteeseen?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|false|holdout|p3w2a2",
+  "text": "Oliko vahinko seurausta osumasta yläpuoliseen esteeseen? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|false|holdout|p3w1a2",
+  "text": "Kysymys: Oliko vahinko seurausta osumasta yläpuoliseen esteeseen?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|null|holdout|p3w2a2",
+  "text": "Oliko vahinko seurausta osumasta yläpuoliseen esteeseen? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "osumaYlapuoliseenEsteeseen|null|holdout|p3w1a2",
+  "text": "Kysymys: Oliko vahinko seurausta osumasta yläpuoliseen esteeseen?\nVastaus: Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|true|holdout|p3w2a2",
+  "text": "Koskiko yläpuolisen esteen osumaa kuljetuspoikkeus? – Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|true|holdout|p3w1a2",
+  "text": "Kysymys: Koskiko yläpuolisen esteen osumaa kuljetuspoikkeus?\nVastaus: Kyllä, se pitää paikkansa."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|false|holdout|p3w2a2",
+  "text": "Koskiko yläpuolisen esteen osumaa kuljetuspoikkeus? – Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|false|holdout|p3w1a2",
+  "text": "Kysymys: Koskiko yläpuolisen esteen osumaa kuljetuspoikkeus?\nVastaus: Ei, se ei pidä paikkaansa."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|null|holdout|p3w2a2",
+  "text": "Koskiko yläpuolisen esteen osumaa kuljetuspoikkeus? – Tietoa ei ole saatavilla."
+ },
+ {
+  "id": "ylapuolisenEsteenKuljetuspoikkeus|null|holdout|p3w1a2",
+  "text": "Kysymys: Koskiko yläpuolisen esteen osumaa kuljetuspoikkeus?\nVastaus: Tietoa ei ole saatavilla."
+ }
+]
