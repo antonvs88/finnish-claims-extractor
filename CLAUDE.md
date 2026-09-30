@@ -34,3 +34,15 @@ development cases and 16.7% recall on its frozen question–answer holdout.
 - Keep loop state in files (a log per attempt), not in the conversation.
 - The synthetic wordings were written by Claude, not a native Finnish annotator; treat scores as a regression signal,
   not as accuracy on real claims. Narratives, amounts, dates and enums are not covered yet.
+
+## Environment on the VM
+- The checkout is `~/finnish-claims-extractor`; the venv is `.venv`. Weights are in `models/` (5 GB, ignored by Git).
+- `gh` has two accounts and the active one (Fennia) cannot see this private repo. Use the personal account for it:
+  `export GH_TOKEN=$(gh auth token --user antonvs88)`, and for a push
+  `git -c credential.helper= -c credential.helper='!gh auth git-credential' push -u origin BRANCH`.
+- The SessionStart hook may list unacknowledged backtest inbox reports. They belong to the pilot session in
+  `~/business-logic-engine`; ignore them here, do not read or acknowledge them, and never arm the inbox watch.
+- Fennia's laptop runs this extractor through `mapping/local_extractor.py` in the business-logic-engine repo; a
+  change to `run.py`, `config.json` or `model-manifest.json` changes the cache fingerprint there.
+- A new session does not inherit earlier conversations. Read this file, `synthetic/README.md` and
+  `docs/feedback-loops.md` (business-logic-engine repo) first.
